@@ -22,10 +22,10 @@ Target countries in **bold**
 - Sandor Kiss, Gergely Zabradi (**Hungary**)
 - Peter Roenne, Georgios Fotiadis (**Luxembourg**)
 - Wouter Castryck, Fré Vercauteren (Belgium)
+- F. Najman (**Croatia**)
 
 ## Contacted, awaiting reply
 
-- F. Najman (Croatia)
 
 ## Potential contacts
 

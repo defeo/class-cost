@@ -1,0 +1,165 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{array}
+\usepackage{tipa}
+\usepackage{mathtools}
+\usepackage[all]{xy}
+\usepackage[toc,page]{appendix}
+\usepackage{changepage}
+\usepackage{color}
+\usepackage{tikz}
+\usepackage{url}
+\usepackage[nameinlink]{cleveref}
+\usepackage{graphicx}
+\graphicspath{ {images} }
+
+\include{bibitex}
+
+\begin{document}
+
+\newcommand{\red}{\color{red}}
+%for TODOS
+
+\title{Short proposal for EU Class-Group-Cost-Action}
+
+\maketitle
+
+\section{Project aim}
+
+The European community of isogeny-based cryptographers is growing fast,
+and those with sufficient resources have already been arranging short workshops to meet and exchange ideas.
+For example, the isogeny days at KU Leuven,
+the mini-symposium at the SIAM-AG conference,\footnote{
+\url{https://mathsites.unibe.ch/siamag19/}}
+the recent workshop in Birmingham,\footnote{
+\url{https://iahmed88.wixsite.com/website}}
+or the upcoming summer school in Bristol.\footnote{
+\url{https://isogenyschool2020.co.uk}}
+However, by necessity, these relatively informal events are only open to
+researchers with access to travel money from their university or personal grants.
+
+With the rapidly growing interest in isogeny-based problems,
+we want to encourage (especially early career) researchers from all over Europe
+to meet regularly to exchange ideas, 
+with the aim of working on the major open problems in the area.
+That is, we want to make the existing informal network into a more formal network,
+increasing both the frequency of the meetings and the accessibility.
+
+There are interesting open problems in isogeny-based cryptography 
+involving both advanced mathematics (especially number theory) and advanced quantum information theory.
+Therefore, another major aim of this project is to bring people from number theoretic and quantum information theoretic backgrounds together with cryptographers to learn about and work on major open problems with the benefit of different perspectives.
+
+\section{Project plan}
+
+\begin{itemize}
+	\item We will have a large workshop including all of the partners at least once a year, in rotating locations. 
+	This workshop will have both educational (lectures/school) and research (collaboration) components.
+	\item We will several smaller workshops including a few different groups of partners throughout each year, either educational or collaboration focussed depending on the needs of those partners.
+	\item We will support travel for continued collaboration between partners of the project.
+\end{itemize}
+
+
+
+\section{Project background}
+
+Steady progress towards scalable quantum computers is threatening the foundation of asymmetric cryptography. 
+There has been considerable effort in the last few years to develop new methods in cryptography that are resistant to advances in quantum computing, a field that has become known as \emph{post-quantum cryptography}. 
+These efforts include a standardization effort being run by NIST \cite{NIST-comp} to find new cryptography standards for industry and government that are quantum resistant.
+
+The newest major area within post-quantum cryptography is \emph{isogeny-based cryptography}, representing just one of n entries in the NIST competition, SIKE~\cite{SIKE}. 
+This protocol is a key encapsulation protocol based on SIDH~\cite{SIDH} introduced by David Jao and Luca de Feo in 2011.
+It boasts the smallest private and public key sizes of all the entries in the NIST competition by a significant margin.
+Although it is the only isogeny-based entry in the NIST competition,
+there are now competing isogeny-based schemes~\cite{CSIDH, CSURF, CSIFiSh}
+that have been introduced since 2016.
+As the topic is young it is likely that more competing schemes are still to come;
+indeed we hope that this project will start collaborations on new isogeny-based schemes, for example with higher functionality than the current proposals.
+The mathematical world of isogenies is extremely rich,
+and there are certainly more options to be explored, especially in a collaboration between number theorists and cryptographers.
+
+As NIST pushes for standardization, there is still a lot of work to be done on cryptanalysis, even on the oldest isogeny-based scheme SIDH/SIKE. 
+For example, Petit's attacks from 2017~\cite{Petit17} 
+have been very recently improved~\cite{KMPPS20}
+and could feasibly still be further improved with a new idea in the next years.
+The quantum cryptanalysis on the recent scheme CSIDH is far from understood for any concrete parameters~\cite{simons-talk},
+and a very recent paper~\cite{characters} gave new ideas for classical cryptanalysis.
+It is vital that the community is confident that the cryptanalysis of these proposals
+and any future proposals is thorough before any kind of standard is proposed.
+Another vital topic to address before standardization is secure and efficient implementation, which is also still in the phase of continuous improvement. 
+Isogeny-based systems, while boasting small key sizes,
+are relatively slow even compared to their competitors in the post-quantum world,
+so efficient implementation is necessary for these schemes to be of any practical use.
+
+\section{Partner countries}
+
+We welcome more partners, and currently include the following in our planned consortium:
+\begin{itemize}
+	\item Belgium
+		\begin{itemize}
+			\item KU Leuven: Wouter Castryck and Frederik Vercauteren
+		\end{itemize}
+	\item {\red Bosnia
+		\begin{itemize}
+			\item Manuela Muzika, Almasa Odzak
+		\end{itemize}}
+	\item Croatia
+		\begin{itemize}
+			\item University of Zagreb: Filip Najman
+		\end{itemize}
+	\item Czech Republic
+		\begin{itemize}
+			\item Masaryk University: Vashek Matyas
+		\end{itemize}
+	\item France
+		\begin{itemize}
+			\item INRIA Paris: Ben Smith
+			{\red
+			\item Universit\'e de Rennes 1: Sylvain Duquesne and Elisa Lorenzo-Garcia
+			\item Universit\'e de Bordeaux: Benjamin Wesolowski}
+		\end{itemize}
+	\item Germany
+		\begin{itemize}
+			{\red 
+			\item Bochum Univeristy: Daniel J. Bernstein
+			\item Oldenburg University: Florian Hess
+			\item Michael Meyer's supervisor?}
+		\end{itemize}
+	\item Hungary
+		\begin{itemize}
+			\item E\"{o}tv\"{o}s Lor\'{a}nd University: Sandor Kiss,  Gergely Z\'{a}br\'{a}di
+		\end{itemize}
+	\item Luxembourg
+		\begin{itemize}
+			\item {\red University of Luxembourg: Peter Roenne}
+		\end{itemize}
+	\item Portugal
+		\begin{itemize}
+			\item {\red Porto: Antonio Machiavelo?}
+		\end{itemize}
+	\item Switzerland
+		\begin{itemize}
+			\item IBM Research Zurich: Luca de Feo
+		\end{itemize}
+	\item The Netherlands
+		\begin{itemize}
+			\item Eindhoven University of Technology: Tanja Lange, Lorenz Panny
+			\item {\red NXP: Joost Renes}
+			\item {\red CWI: L\'{e}o Ducas, Jana Sot\'{a}kov\'{a}}
+		\end{itemize}
+	\item Turkey
+		\begin{itemize}
+			\item Yasar University: Huseyin Hisil
+		\end{itemize}
+	\item United Kingdom
+		\begin{itemize}
+			\item Birmingham University: Christophe Petit
+			\item Bristol University: Chloe Martindale
+		\end{itemize}
+\end{itemize}
+
+\bibliographystyle{plain}
+\bibliography{bib}
+
+\end{document}

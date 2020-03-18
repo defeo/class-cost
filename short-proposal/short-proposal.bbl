@@ -1,0 +1,62 @@
+\begin{thebibliography}{10}
+
+\bibitem{CSIFiSh}
+Ward Beullens, Thorsten Kleinjung, and Frederik Vercauteren.
+\newblock {CSI-FiSh}: Efficient isogeny based signatures through class group
+  computations.
+\newblock In {\em ASIACRYPT 2019}, 2019.
+
+\bibitem{CSURF}
+Wouter Castryck and Thomas Decru.
+\newblock {CSIDH} on the surface.
+\newblock Cryptology ePrint Archive Report 2019/1404, 2019.
+
+\bibitem{CSIDH}
+Wouter Castryck, Tanja Lange, Chloe Martindale, Lorenz Panny, and Joost Renes.
+\newblock {CSIDH}: An efficient post-quantum commutative group action.
+\newblock In {\em ASIACRYPT 2018}, 2018.
+
+\bibitem{characters}
+Wouter Castryck, Jana Sot\'{a}kov\'{a}, and Frederik Vercauteren.
+\newblock Breaking the decisional {D}iffie-{H}ellman problem for class group
+  actions using genus theory.
+\newblock Cryptology ePrint Archive Report 2020/151, 2020.
+
+\bibitem{SIKE}
+David Jao, Reza Azarderakhsh, Matthew Campagna, Craig Costello, Luca {De Feo},
+  Basil Hess, Amir Jalali, Brian Koziel, Brian {LaMacchia}, Patrick Longa,
+  Michael Naehrig, Joost Renes, Vladimir Soukharev, and David Urbanik.
+\newblock Supersingular isogeny key encapsulation.
+\newblock 2019.
+
+\bibitem{SIDH}
+David Jao and Luca de~Feo.
+\newblock Towards quantum-resistant cryptosystems from supersingular elliptic
+  curve isogenies.
+\newblock In {\em PQCrypto 2011}, 2011.
+
+\bibitem{KMPPS20}
+P\'{e}ter Kutas, Chloe Martindale, Lorenz Panny, Christophe Petit, and Kate
+  Stange.
+\newblock Weak instances of {SIDH} under improved torsion point attacks, 2020.
+\newblock (upcoming).
+
+\bibitem{simons-talk}
+Chloe Martindale.
+\newblock {\em Overview of Attacks on Elliptic Curve Isogenies Based Systems},
+  2020.
+\newblock Talk:
+  \url{https://simons.berkeley.edu/talks/overview-attacks-elliptic-curve-isogenies-based-systems-0}.
+
+\bibitem{NIST-comp}
+{National Institute of Standards and Technology}.
+\newblock Post-quantum cryptography standardization, December 2016.
+\newblock
+  \url{https://csrc.nist.gov/Projects/Post-Quantum-Cryptography/Post-Quantum-Cryptography-Standardization}.
+
+\bibitem{Petit17}
+Christophe Petit.
+\newblock Faster algorithms for isogeny problems using torsion point images.
+\newblock In {\em ASIACRYPT 2017}, 2017.
+
+\end{thebibliography}

@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: short-proposal.aux
+The style file: plain.bst
+Database file #1: bib.bib
+Warning--empty journal in SIKE
+You've used 10 entries,
+            2118 wiz_defined-function locations,
+            550 strings with 5796 characters,
+and the built_in function-call counts, 3068 in all, are:
+= -- 257
+> -- 212
+< -- 0
++ -- 84
+- -- 74
+* -- 193
+:= -- 540
+add.period$ -- 30
+call.type$ -- 10
+change.case$ -- 66
+chr.to.int$ -- 0
+cite$ -- 11
+duplicate$ -- 103
+empty$ -- 236
+format.name$ -- 74
+if$ -- 620
+int.to.chr$ -- 0
+int.to.str$ -- 10
+missing$ -- 5
+newline$ -- 53
+num.names$ -- 20
+pop$ -- 103
+preamble$ -- 1
+purify$ -- 57
+quote$ -- 0
+skip$ -- 71
+stack$ -- 0
+substring$ -- 50
+swap$ -- 14
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 40
+warning$ -- 1
+while$ -- 20
+width$ -- 12
+write$ -- 101
+(There was 1 warning)

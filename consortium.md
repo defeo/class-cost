@@ -69,6 +69,10 @@ Total potential+ANTS new non-target: 3
 - Novak Kaluderovic (Switzerland)
 - Alex Gelin (France)
 
+## Other expressions of interest
+
+- Nuno Freitas (Spain) (in touch with Luca)
+
 ## Interest from ANTS as IPT
 
 - John Voight, Travis Morrison, Alice Siliverberg, Shahed Sharif, Christelle Vincent (USA) - contacted

@@ -16,8 +16,21 @@ TODO: Chloe
 
 #### 1.2.1	APPROACH TO THE CHALLENGE AND PROGRESS BEYOND THE STATE-OF-THE-ART
 #### 1.2.2	Objectives
+
+**TODO** add some buzzwordy bits. Include ECIs, geographical and gender diversity.
+
 ##### 1.2.2.1 Research Coordination Objectives
 
+Note: other COST actions have way more generic buzzwordy objectives than this. Bullets below are a first attempt at putting what we discussed down
+
+- Developing the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
+- Leading the development of a common understanding internationally of both classical and quantum algorithms applied to isogeny-based cryptosystems.
+- Create an open-source database of isogeny formulas. This naturally complements and can be included in the already widely-used Explicit Formulas Database (https://hyperelliptic.org/EFD/). **TODO** check with Tanja.
+- Write a book on isogeny-based cryptography covering the basic topics needed for a newcomer to the topic to start doing research in the area.
+- Disseminate the work acheived through COST collaborations by presenting at high-profile international cryptography conferences such as Eurocrypt.
+- **TODO** add something about NIST. Along the lines of: Confidence in the security of SIKE is becoming an urgent question, and has not been studied on anything near the level of competitors, add quote from round 3?
+
+What we discussed:
 - Dissemination
 - Development of common understanding
 - Input to marketers
@@ -26,6 +39,12 @@ TODO: Chloe
 
 ##### 1.2.2.2 Capacity-building Objectives
 
+- Growing the field of isogeny-based cryptography by fostering existing research connections. As this is an emerging field, no one country has a critical mass of isogeny-based cryptography reseachers. Most of the innovative papers (about 1 per year) resulted from multinational collaboration, and a research network will allow for a rapid increase in research output.
+- Bringing together reseachers from cryptography, number theory, and quantum computing, all of whom have relevant and different perspectives on the major open problems in isogeny-based cryptography.
+- Allowing Early Career Investigators who would otheriwse be isolated or limited to very few local collaborators to connect with the whole European isogeny-based cryptography community.
+- Promoting and supporting female and non-binary researchers in the field, both by a having a diverse consortium with respect to gender (at each level of involvement), and by collaboration with the Women in Numbers Europe community.
+
+What we discussed:
 - Bridging fields
 - Building new stuff
 

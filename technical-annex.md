@@ -12,23 +12,31 @@ TODO: Ben
 
 ### 1.2	Progress beyond the state-of-the-art 
 
-TODO: Chloe
+TODO: Chloe (Chloe: I'll work on this properly after Ben has written the state-of-the-art so that things are somewhat unified)
 
 #### 1.2.1	APPROACH TO THE CHALLENGE AND PROGRESS BEYOND THE STATE-OF-THE-ART
+
+To include:
+-Book from summer school
+-Cryptanalysis workshop(s)? + focussed workshop
+-Development of new protocols by dedicated WG on number-theoretic foundations
+-Implementation dedicated WG and focussed workshop(s)
+-Database focussed workshop (follow-up from implementation or combined?)
+-STSMs (e.g. to foster research connections formed at workshops??)
+
 #### 1.2.2	Objectives
 
-**TODO** add some buzzwordy bits. Include ECIs, geographical and gender diversity.
+**TODO**
 
 ##### 1.2.2.1 Research Coordination Objectives
-
-Note: other COST actions have way more generic buzzwordy objectives than this. Bullets below are a first attempt at putting what we discussed down
 
 - Developing the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 - Leading the development of a common understanding internationally of both classical and quantum algorithms applied to isogeny-based cryptosystems.
 - Create an open-source database of isogeny formulas. This naturally complements and can be included in the already widely-used Explicit Formulas Database (https://hyperelliptic.org/EFD/). **TODO** check with Tanja.
 - Write a book on isogeny-based cryptography covering the basic topics needed for a newcomer to the topic to start doing research in the area.
 - Disseminate the work acheived through COST collaborations by presenting at high-profile international cryptography conferences such as Eurocrypt.
-- **TODO** add something about NIST. Along the lines of: Confidence in the security of SIKE is becoming an urgent question, and has not been studied on anything near the level of competitors, add quote from round 3?
+- Input to international standards on post-quantum cryptography such as the ongoing competition being led by NIST.
+
 
 What we discussed:
 - Dissemination

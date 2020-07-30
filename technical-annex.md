@@ -129,7 +129,7 @@ distributed computing such as generation of fair randomness or
 electronic voting. The primary beneficiaries of these technologies are
 stakeholders working with blockchains, and more generally financial
 services. The Action will advance the state of the art of time delay
-protocols: providing more powerful constructions, more efficient
+protocols, providing more powerful constructions, more efficient
 protocols, and more secure instantiations.
 
 Finally, in terms of scientific impact, the goal of the action is to
@@ -138,7 +138,7 @@ accelerating progress in isogeny-based cryptography. The various
 actions described in the implementation section (workshops, schools,
 books) will contribute to form a new generation of experts with a deep
 understanding of isogeny-based cryptography, whose impact in the
-broader fields of theoretical and applied cryptography will be felt
+broader field of cryptography ---both theoretical and applied--- will be felt
 well after the Action is over.
 
 ### 3.2	MEASURES TO MAXIMISE IMPACT
@@ -168,13 +168,13 @@ schools focused on narrower topics, typically involving one or two
 Working Groups. The workshops will primarily be targeted at Action
 members, but will be open to anyone, within the capacity of the event.
 Whenever feasible, these workshops will be organized in participating
-Inclusiveness Target Countries, to facilitate participation of
-researchers from these. The format of the workshop will be decided by
+Inclusiveness Target Countries, to facilitate participation of their
+researchers. The format of the workshop will be decided by
 the organizers, and will have to be validated by the Management
 Committee.
 
-Both in the organization of the meetings and of the workshops, the
-Action will strive to involve early career researchers in their
+Both for meetings and workshops, the
+Action will strive to involve young researchers in their
 organization, in particular from Inclusiveness Target Countries, to
 encourage responsibility taking and network building.
 
@@ -185,33 +185,31 @@ institutions and develop scientific collaborations.
 
 #### 3.2.2	PLAN FOR DISSEMINATION AND/OR EXPLOITATION AND DIALOGUE WITH THE GENERAL PUBLIC OR POLICY
 
-Selected lectures from the schools, plus invited essays if necessary,
+Throughout the duration of the Action, the official website will serve as a one stop shop for all sorts of resources related to the Action. In particular, it will contain:
+
+- News feeds, agenda, links to mailing lists and social media accounts providing informations on the Action's activities.
+
+- A regularly updated blog (1 post per month on average at least) discussing scientific topics related to the action using an informal style.
+
+- A database of all scientific publications in the field of isogeny based cryptography, both by Action members and non-members, searchable and downloadable in machine readable formats.
+
+- Lecture material from the Action's meetings and workshops.
+
+- Information on the management of the Action.
+
+The website will be maintained for at least 4 years after the end of the action. The hope is that it will become a standard source of information for the field, and be kept up to date in the long term.
+
+In the last year of the Action, selected lectures from the schools, plus invited essays if necessary,
 will be invited to become chapters of a book edited under the
-supervision of the Action and published with an academic publisher. 
+supervision of the Action and published with an academic publisher.
 
--book
--videos
-- whitepapers
-- blog posts
+The Action will seek to disseminate its scientic discoveries through the usual academic channels. Gold open access will be the preferred publication model; fortunately, this is often the standard model in the communities. Should the action publish datasets (e.g., tables of polynomials, formulas, ...), these will be published according to open data practices. The action will generally not seek to establish patents, as these are typically considered a hindrance to the deployment of cryptosystems. Exceptions may be made when a member seeks to establish a "defensive patent"; in this case the member will be required to explicitly release the patent to the public domain royalty-free.
 
-Present a clear and attainable plan for dissemination and/or
-exploitation of results, including IPR, if relevant. Describe a plan
-for dissemination and/or exploitation of results that is clear and
-attainable and contributesto the dialogue between science and the
-general public and/or policy
+The Action will target strategic venues for its communications: major conferences and journals in cryptography and number theory, targetd workshops on post-quantum cryptography, standardization body meetings. In particular, the Action will target the workshops regularly organized by NIST as part of the post-quantum competition, by submitting whitepapers and contributed talks.
 
-the main goal of the Action is
-to form a new generation of experts in isogeny-based cryptography.  It
-is indeed a commonly held belief that isogenies are a highly technical
-topic, much harder to master than any other object currently used in
-cryptography.  It is a fact that development in isogeny-based
-cryptography is currently being held back by the small size of the
-community and by the scarce availability of accessible literature
-introducing the topic, especially for students coming from other
-backgrounds than number theory. Through its dissemination actions
-(workshops, schools, research visits), and its publications (lecture
-notes, books), the Action will contribute to establish a common
-language and bring together researchers from different backgrounds to 
+Software produced by the Action will mostly consist of research software for demonstrative purposes, or contributions to open source computer algebra systems (e.g., PARI/GP, Sagemath, Oscar, ...). In both cases, the code will be published under standard open source licenses, such as the GPL. Occasionally, some of these software may be integrated in the products of the industrial partners of the Action. As a general rule, the open source license will still apply to the software; this shouldn't be an issue, as most companies in cryptography nowadays are used to work with open source software; shall the open source license be a problem, the authors of the code may decide to grant an additional closed source license to the industrial partner.
+
+Besides advancing the state of the art, the action also aims at making isogeny based cryptography to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at schools.
 
 
 ## 4	IMPLEMENTATION

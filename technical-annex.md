@@ -216,12 +216,17 @@ Besides advancing the state of the art, the action also aims at making isogeny b
 ### 4.1	COHERENCE AND EFFECTIVENESS OF THE WORK PLAN
 #### 4.1.1	DESCRIPTION OF WORKING GROUPS, TASKS AND ACTIVITIES
 
-TODO: Luca
+Due to its multidisciplinary nature, the Action brings together several communities with different expertise and vocabularies. The work plan will be structured around 4 Working Groups (WG), roughly corresponding to each of the communities. We describe the WG below.
 
-- Number theoretic foundations (incl. higher genus)
-- Cryptanalysis (incl. quantum)
-- Protocols, constructions
-- Hard & Soft implementation
+**WG1 - Number theoretic foundations** This WG will be concerned with the mathematical foundations of isogeny-based cryptography, rooted in number theory and algebraic geometry. It will study the objects upon which cryptographic protocols are built, their generalisations and their algorithmic properties. In particular, it will research efficient algorithms for working with isogenies of elliptic curves and higher dimensional abelian varieties, the structure of isogeny graphs, and the algorithmic relationships with their endomorphism rings. Its outputs will inform the other working groups on the best algorithmic ways to reach their goals, and on the potential risks to security. From the other WG, it will draw inspiration for useful properties to look for in the algebraic objects.
+
+**WG2 - Cryptanalysis** This WG will focus on algorithms to break the concrete schemes that have been proposed. It shares with WG1 an interest for algorithms to navigate isogent graphs, however it approaches them from a cryptographic perspective, focusing on the security definitions and the minor details that make each system unique. Unlike other WGs, it will have a strong focus on quantum algorithms. Security reductions will also be an object of study of this WG, in collaboration with WG3. Its outputs will be used to set parameter for different security levels, in coordination with WG4.
+
+**WG3 - Primitives, Protocols and Assumptions** This WG will research new primitives and protocols that can be built from isogenies. It will monitor the emergence of new primitives that have a potential to be built from isogenies, and inform other WGs in the hope of coming with a working proposal. It will construct new protocols (mostly advanced ones that go beyond encryption and signature) using the available primitives, and seek to make them as efficient as possible in collaboration with WG4. Inspired by protocols in other subfields (e.g., lattice based cryptography), it will propose new isogeny-based assumptions upon which new protocols can be constructed, and assess their security in collaboration with WG1 and WG2.
+
+**WG4 - Hardware & Software implementations** This WG will produce high efficiency implementations of isogeny algorithms and protocols, both in hardware and in software. It will discuss with WG2 to determine the most efficient parameters for a given security level. It will interact with WG1 to seek new theoretically efficient algorithms for isogeny computations, that translate into fast software and hardware.
+
+[We need to say something about transversality, risk management, and how we make the WG talk to each other]
 
 #### 4.1.2	DESCRIPTION OF DELIVERABLES AND TIMEFRAME
 

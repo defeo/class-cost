@@ -27,18 +27,30 @@ To include:
 
 #### 1.2.2	Objectives
 
-**TODO**
+**TODO** [Chloe: list or prose? Prose here then list for 1.2.2.1 and 1.2.2.2?]
 
 ##### 1.2.2.1 Research Coordination Objectives
 
-- Developing the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
-- Leading the development of a common understanding internationally of both classical and quantum algorithms applied to isogeny-based cryptosystems.
-- Create an open-source database of isogeny formulas. This naturally complements and can be included in the already widely-used Explicit Formulas Database (https://hyperelliptic.org/EFD/). **TODO** check with Tanja.
-- Write a book on isogeny-based cryptography covering the basic topics needed for a newcomer to the topic to start doing research in the area.
-- Disseminate the work acheived through COST collaborations by presenting at high-profile international cryptography conferences such as Eurocrypt.
-- Input to international standards on post-quantum cryptography such as the ongoing competition being led by NIST.
+Although isogeny-based cryptography is still very much an emerging field, the time pressure of achieving post-quantum cryptographic standards
+and the memory benefits of using isogeny-based key exchange are facilitating the possibility of relatively early wide-scale adoption of
+isogeny-based cryptosystems. A major research coordination objective of the Action therefore is to lead a global discussion
+to develop a common understanding of both classical and quantum algorithms applied to isogeny-based cryptosystems. A part of this objective
+is to input to international standards on post-quantum cryptography such as (but not limited to) the ongoing competition for post-quantum
+cryptographic standards being led by NIST.
 
+Another major research coordination objective is to develop the field of isogeny-based cryptography both by improving the understanding of
+the existing protocols, which ties naturally into the above objective, but also by developing new protocols.
 
+We will also make use of the collaboration of a critical mass of experts across Europe to create an open source database of isogeny formulas.
+Such a database is an invaluable resource for researchers to keep track of, build upon, and expand the latest developments in the fast-moving 
+area of efficient algorithms. This database will be a natural complement to and can be included in the already widely-used Explicit Formulas
+Database (https://hyperelliptic.org/EFD/). **TODO check with Tanja**. In a similar vein, we will use this collaboration to write the first
+textbook on isogeny-based cryptography: covering the basic topics needed for a newcomer to start doing research in the area.
+
+Finally, we will disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences
+such as Eurocrypt and ANTS.
+
+[Chloe: Keeping this in for now]
 What we discussed:
 - Dissemination
 - Development of common understanding
@@ -48,11 +60,15 @@ What we discussed:
 
 ##### 1.2.2.2 Capacity-building Objectives
 
-- Growing the field of isogeny-based cryptography by fostering existing research connections. As this is an emerging field, no one country has a critical mass of isogeny-based cryptography reseachers. Most of the innovative papers (about 1 per year) resulted from multinational collaboration, and a research network will allow for a rapid increase in research output.
-- Bringing together reseachers from cryptography, number theory, and quantum computing, all of whom have relevant and different perspectives on the major open problems in isogeny-based cryptography.
-- Allowing Early Career Investigators who would otheriwse be isolated or limited to very few local collaborators to connect with the whole European isogeny-based cryptography community.
-- Promoting and supporting female and non-binary researchers in the field, both by a having a diverse consortium with respect to gender (at each level of involvement), and by collaboration with the Women in Numbers Europe community.
+1. As isogeny-based cryptography is an emerging field, no one country involved in the Action (or indeed globally) has a critical mass of isogeny-based cryptography researchers. A primary capacity-building objective therefore is to grow the field of isogeny-based cryptography by fostering existing research conections. Most of the innovative papers in the field have resulted from multinational collaborations facilitated by ad hoc workshops or visits; a research network will allow for much more regular collaboration and consequently a rapid increase in high-quality research output.
 
+2. The Action is by nature interdisciplinary. We will bring together researchers from cryptography, number theory, and quantum computing, all of whom have different perspectives on the major open problems in isogeny-based cryptography.
+
+3. We will give collaboration opportunities and increased visibility to Early Career Investigators who would otherwise be isolated or limited to very few local collaborators by connecting them with the whole European isogeny-based cryptography community.
+
+4. We will promote diversity in the community, for example by ensuring a diverse consortium and by collboration with the Women in Numbers Europe community. 
+
+[Chloe: keeping this in for now]
 What we discussed:
 - Bridging fields
 - Building new stuff
@@ -88,7 +104,7 @@ competitiveness of SMEs and large companies in Europe and beyond.
 
 The action will seek to maximise impact by disseminating results in
 written form (books, academic papers, whitepapers, blog posts), and by
-forming a new generation of young researchers and engineers to the
+training a new generation of young researchers and engineers in the
 fundamental tools of isogeny-based cryptography.
 
 
@@ -103,20 +119,20 @@ analyses, the Action will aim at influencing NIST's decision
 process. Two outcomes are possible: either the analyses shed doubt on
 the security of SIKE, an unfortunate outcome, but a valuable
 contribution to NIST and to society; or they confirm the strength of
-SIKE, and possibly improve its performance, hopefully leading to
-widespread adoption and to growth in the sector of
+SIKE, and possibly improve its performance, paving the way for
+widespread adoption as well as growth in the sector of
 post-quantum cryptography.
 
-While the eventual standardization of SIKE would be an undeniable
+While the eventual standardization of SIKE will be an undeniable
 booster for the popularity of isogeny-based cryptogrpahy, the Action
 goals reach beyond NIST's competition and post-quantum
 cryptography alone. 
 
-Within the scope of post-quantum cryptography, it is hoped that the
-Action will contribute to significant innovations, such as, for
+Within the scope of post-quantum cryptography, the Action will 
+explore many significant innovations, such as, for
 example, efficient isogeny-based signature schemes, new advanced
 primitives not currently known to be constructible from isogenies,
-better provable security for already known primitives, or more
+better provable security for already known primitives, and more
 in-depth analyses of available attacks. Although on a longer
 time-scale than SIKE, these innovations will directly benefit
 stakeholders operating in the post-quantum space such as SMEs and
@@ -128,7 +144,7 @@ impact, providing cost-effective solutions to difficult problems in
 distributed computing such as generation of fair randomness or
 electronic voting. The primary beneficiaries of these technologies are
 stakeholders working with blockchains, and more generally financial
-services. The Action will advance the state of the art of time delay
+services. The Action will advance the state-of-the-art of time delay
 protocols, providing more powerful constructions, more efficient
 protocols, and more secure instantiations.
 
@@ -158,8 +174,9 @@ talks, posters, and work sessions. To encourage outside participation,
 the Action will seek to co-locate the meetings with related
 conferences, e.g., Eurocrypt or ANTS. Lecturers will be encouraged to
 write lecture notes, and the notes will be collected on the website of
-the Action [or shall we try to publish proceedings?]. Whenever
-technically possible, measures will be taken to encourage remote
+the Action [Luca: or shall we try to publish proceedings?] 
+[Chloe: nice idea, but do we want to promise that now already?]. Whenever
+technically possible, measures will be taken to also encourage remote
 participation; at a minimum, lectures will be recorded and made
 available online shortly after the workshop.
 
@@ -197,19 +214,19 @@ Throughout the duration of the Action, the official website will serve as a one 
 
 - Information on the management of the Action.
 
-The website will be maintained for at least 4 years after the end of the action. The hope is that it will become a standard source of information for the field, and be kept up to date in the long term.
+The website will be maintained for at least 4 years after the end of the action. We aim for it to become a standard source of information for the field, and be kept up to date in the long term.
 
 In the last year of the Action, selected lectures from the schools, plus invited essays if necessary,
 will be invited to become chapters of a book edited under the
 supervision of the Action and published with an academic publisher.
 
-The Action will seek to disseminate its scientic discoveries through the usual academic channels. Gold open access will be the preferred publication model; fortunately, this is often the standard model in the communities. Should the action publish datasets (e.g., tables of polynomials, formulas, ...), these will be published according to open data practices. The action will generally not seek to establish patents, as these are typically considered a hindrance to the deployment of cryptosystems. Exceptions may be made when a member seeks to establish a "defensive patent"; in this case the member will be required to explicitly release the patent to the public domain royalty-free.
+The Action will disseminate its scientic discoveries through the usual academic channels. Gold open access will be the preferred publication model; fortunately, this is often the standard model in the appropriate communities. Should the action publish datasets (e.g., tables of polynomials, formulas, ...), these will be published according to open data practices. The action will generally not seek to establish patents, as these are typically considered a hindrance to the deployment of cryptosystems. Exceptions may be made when a member seeks to establish a "defensive patent"; in this case the member will be required to explicitly release the patent to the public domain royalty-free.
 
-The Action will target strategic venues for its communications: major conferences and journals in cryptography and number theory, targetd workshops on post-quantum cryptography, standardization body meetings. In particular, the Action will target the workshops regularly organized by NIST as part of the post-quantum competition, by submitting whitepapers and contributed talks.
+The Action will target strategic venues for its communications: major conferences and journals in cryptography and number theory, targeted workshops on post-quantum cryptography, and standardization body meetings. In particular, the Action will target the workshops regularly organized by NIST as part of the post-quantum competition, by submitting whitepapers and contributed talks.
 
-Software produced by the Action will mostly consist of research software for demonstrative purposes, or contributions to open source computer algebra systems (e.g., PARI/GP, Sagemath, Oscar, ...). In both cases, the code will be published under standard open source licenses, such as the GPL. Occasionally, some of these software may be integrated in the products of the industrial partners of the Action. As a general rule, the open source license will still apply to the software; this shouldn't be an issue, as most companies in cryptography nowadays are used to work with open source software; shall the open source license be a problem, the authors of the code may decide to grant an additional closed source license to the industrial partner.
+Software produced by the Action will mostly consist of research software for demonstrative purposes, or contributions to open source computer algebra systems (e.g., PARI/GP, Sagemath, Oscar, ...). In both cases, the code will be published under standard open source licenses, such as the GPL. Occasionally, some of these software may be integrated in the products of the industrial partners of the Action. As a general rule, the open source license will still apply to the software; most companies in cryptography regularly work with open source software. If the open source license does cause a problem with an industrial partner however, the authors of the code may decide to grant an additional closed source license to the industrial partner.
 
-Besides advancing the state of the art, the action also aims at making isogeny based cryptography to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at schools.
+Besides advancing the state-of-the-art, the action also aims at making isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at schools.
 
 
 ## 4	IMPLEMENTATION
@@ -220,9 +237,9 @@ Due to its multidisciplinary nature, the Action brings together several communit
 
 **WG1 - Number theoretic foundations** This WG will be concerned with the mathematical foundations of isogeny-based cryptography, rooted in number theory and algebraic geometry. It will study the objects upon which cryptographic protocols are built, their generalisations and their algorithmic properties. In particular, it will research efficient algorithms for working with isogenies of elliptic curves and higher dimensional abelian varieties, the structure of isogeny graphs, and the algorithmic relationships with their endomorphism rings. Its outputs will inform the other working groups on the best algorithmic ways to reach their goals, and on the potential risks to security. From the other WG, it will draw inspiration for useful properties to look for in the algebraic objects.
 
-**WG2 - Cryptanalysis** This WG will focus on algorithms to break the concrete schemes that have been proposed. It shares with WG1 an interest for algorithms to navigate isogent graphs, however it approaches them from a cryptographic perspective, focusing on the security definitions and the minor details that make each system unique. Unlike other WGs, it will have a strong focus on quantum algorithms. Security reductions will also be an object of study of this WG, in collaboration with WG3. Its outputs will be used to set parameter for different security levels, in coordination with WG4.
+**WG2 - Cryptanalysis** This WG will focus on algorithms to break the concrete schemes that have been proposed. It shares with WG1 an interest for algorithms to navigate isogeny graphs, however it approaches them from a cryptographic perspective, focusing on the security definitions and the minor details that make each system unique. Unlike other WGs, it will have a strong focus on quantum algorithms. Security reductions will also be an object of study of this WG, in collaboration with WG3. Its outputs will be used to set parameters for different security levels, in coordination with WG4.
 
-**WG3 - Primitives, Protocols and Assumptions** This WG will research new primitives and protocols that can be built from isogenies. It will monitor the emergence of new primitives that have a potential to be built from isogenies, and inform other WGs in the hope of coming with a working proposal. It will construct new protocols (mostly advanced ones that go beyond encryption and signature) using the available primitives, and seek to make them as efficient as possible in collaboration with WG4. Inspired by protocols in other subfields (e.g., lattice based cryptography), it will propose new isogeny-based assumptions upon which new protocols can be constructed, and assess their security in collaboration with WG1 and WG2.
+**WG3 - Primitives, Protocols and Assumptions** This WG will research new primitives and protocols that can be built from isogenies. It will monitor the emergence of new primitives that have a potential to be built from isogenies, and inform other WGs in the hope of coming with a working proposal. It will construct new protocols (mostly advanced ones that go beyond encryption and signatures) using the available primitives, and seek to make them as efficient as possible in collaboration with WG4. Inspired by protocols in other subfields (e.g., lattice based cryptography), it will propose new isogeny-based assumptions upon which new protocols can be constructed, and assess their security in collaboration with WG1 and WG2.
 
 **WG4 - Hardware & Software implementations** This WG will produce high efficiency implementations of isogeny algorithms and protocols, both in hardware and in software. It will discuss with WG2 to determine the most efficient parameters for a given security level. It will interact with WG1 to seek new theoretically efficient algorithms for isogeny computations, that translate into fast software and hardware.
 

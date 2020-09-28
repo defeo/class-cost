@@ -91,18 +91,32 @@ What we need to build together, and knowledge we need to share effectively:
 
 ### 1.2	Progress beyond the state-of-the-art 
 
-TODO: Chloe (Chloe: I'll work on this properly after Ben has written the state-of-the-art so that things are somewhat unified)
+This action can be reasonably expected to make significant progress beyond the state-of-the-art in three main topics: constructing new protocols, cryptanalysis, and implementation.
+
+We see above that isogenies have proven already to be flexible in their breadth of cryptographic applications: (non-interative) key exchange, signatures, VDFS, and more. We will have a focussed working group on number-theoretic foundations in order to explore further the potential for new post-quantum as well as classical applications of isogenies;such a study may also lead to improved algorithms for the current popular isogeny-based constructions.
+
+With cryptanalysis it is especially important that the best classical and quantum algorithms to attack isogeny-based cryptosystems are well understood and pushed to their limits, as well as searching for new approaches. By the end of the action, we will have a unified stance on the classical and quantum security of SIKE and CSIDH, as well as more advanced protocols, and have a better understanding of the security of isogeny-based cryptography more generally. This will give much-needed confidence in the schemes before they are implemented on a wide-scale.
+
+Secure and efficient implementation is a very active topic in isogeny-based cryptography. 
+Through this action, by the careful creation of databases and coordination of work it will be possible to present secure and optimized implementations for not only the main protocols but also for new constructions. 
 
 #### 1.2.1	APPROACH TO THE CHALLENGE AND PROGRESS BEYOND THE STATE-OF-THE-ART
 
-To include:
+Our approach to the challenge from the perspective of the network has two main foci: introducing young researchers to the main open problems while equipping them with the tools they will need, and bringing together researchers from different fields to learn from each others' different perspectives. 
 
-- Book from summer school
-- Cryptanalysis workshop(s)? + focussed workshop
-- Development of new protocols by dedicated WG on number-theoretic foundations
-- Implementation dedicated WG and focussed workshop(s)
-- Database focussed workshop (follow-up from implementation or combined?)
-- STSMs (e.g. to foster research connections formed at workshops??)
+Concretely, for the first aim we plan to hold a week-long school near the beginning of the action, 
+and to create a book with chapters contributed by the lecturers of this school. The book will be maintained on an open source online platform with possibility for the future addition (or removal) of chapters until the end of the action, 
+due to the fact that the topic is still changing rapidly, and will be formally published during the last year of the action.
+
+For the second aim, 
+we will bring together reseachers from different fields by means of both dedicate working groups and workshops. 
+-For cryptanalysis, we will hold a dedicated workshop, with follow-up workshops focussed on aspects of (classical or quantum) cryptnalysis that prove to be of interest to the partners in the action. 
+-For the development of new protocols, we have a dedicated working group on number-theoretic foundations.
+-For implementation, we have dedicated working group, and we will also hold implementation focussed workshops throughout the action.
+This will include a workshop dedicated to the creation of a database for isogeny formulas.
+
+Finally, we will support Short-Term Scientific Missions, especially to foster research connections formed at the aforementioned workshops, throughout the entire action period.
+These missions will be vital for the continuation of the research inspired by our workshops, and especially prioritise mobility for young researchers and participants who do not have access to alternate travel funding.
 
 #### 1.2.2	Objectives
 

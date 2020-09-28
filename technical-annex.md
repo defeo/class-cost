@@ -106,51 +106,38 @@ To include:
 
 #### 1.2.2	Objectives
 
-**TODO** [Chloe: list or prose? Prose here then list for 1.2.2.1 and 1.2.2.2?]
+Although isogeny-based cryptography is still very much an emerging field, the time pressure of achieving post-quantum cryptographic standards
+and the memory benefits of using isogeny-based cryptosystems are facilitating the possibility of relatively early wide-scale adoption of
+isogeny-based cryptosystems. Our objectives, listed below, aim to mitigate the risk of early adoption where possible as well as develop a 
+unified global outlook in the field. In particular, no one country involved in the Action (or indeed globally) has a critical mass of
+isogeny-based cryptography researchers; a research network will facilitate regular discourse and collaboration between both the European and
+international community. 
 
 ##### 1.2.2.1 Research Coordination Objectives
 
-Although isogeny-based cryptography is still very much an emerging field, the time pressure of achieving post-quantum cryptographic standards
-and the memory benefits of using isogeny-based key exchange are facilitating the possibility of relatively early wide-scale adoption of
-isogeny-based cryptosystems. A major research coordination objective of the Action therefore is to lead a global discussion
-to develop a common understanding of both classical and quantum algorithms applied to isogeny-based cryptosystems. A part of this objective
-is to input to international standards on post-quantum cryptography such as (but not limited to) the ongoing competition for post-quantum
-cryptographic standards being led by NIST.
+1. Lead a global discussion to develop a common understanding of both classical and quantum algorithms applied in cryptanalysis to isogeny-based cryptosystems. 
 
-Another major research coordination objective is to develop the field of isogeny-based cryptography both by improving the understanding of
-the existing protocols, which ties naturally into the above objective, but also by developing new protocols.
+2. Develop the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 
-We will also make use of the collaboration of a critical mass of experts across Europe to create an open source database of isogeny formulas.
-Such a database is an invaluable resource for researchers to keep track of, build upon, and expand the latest developments in the fast-moving 
-area of efficient algorithms. This database will be a natural complement to and can be included in the already widely-used Explicit Formulas
-Database (https://hyperelliptic.org/EFD/). **TODO check with Tanja**. In a similar vein, we will use this collaboration to write the first
-textbook on isogeny-based cryptography: covering the basic topics needed for a newcomer to start doing research in the area.
+3. Create an open source database of isogeny formulas. Such a database is an invaluable resource for researchers to keep track of, build upon, and expand the latest developments in the fast-moving area of efficient algorithms. This database will be a natural complement to and can be included in the already widely-used Explicit Formulas Database (https://hyperelliptic.org/EFD/). **TODO check with Tanja**. 
 
-Finally, we will disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences
-such as Eurocrypt and ANTS.
+4. Write the first textbook on isogeny-based cryptography: covering the basic topics needed for a newcomer to start doing research in the area.
 
-[Chloe: Keeping this in for now]
-What we discussed:
-- Dissemination
-- Development of common understanding
-- Input to marketers
-- Input to stakeholders (e.g., NIST)?
-- Data curation?
+5. Input to international standards on post-quantum cryptography such as (but not limited to) the ongoing completition for post-qunatum cryptography standards being led by NIST.
+
+6. Disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences
+ such as Eurocrypt and ANTS.
+
 
 ##### 1.2.2.2 Capacity-building Objectives
 
-1. As isogeny-based cryptography is an emerging field, no one country involved in the Action (or indeed globally) has a critical mass of isogeny-based cryptography researchers. A primary capacity-building objective therefore is to grow the field of isogeny-based cryptography by fostering existing research conections. Most of the innovative papers in the field have resulted from multinational collaborations facilitated by ad hoc workshops or visits; a research network will allow for much more regular collaboration and consequently a rapid increase in high-quality research output.
+1. Grow the field of isogeny-based cryptography by fostering existing research conections. Most of the innovative papers in the field have resulted from multinational collaborations facilitated by ad hoc workshops or visits; a research network will allow for much more regular collaboration and consequently a rapid increase in high-quality research output.
 
 2. The Action is by nature interdisciplinary. We will bring together researchers from cryptography, number theory, and quantum computing, all of whom have different perspectives on the major open problems in isogeny-based cryptography.
 
 3. We will give collaboration opportunities and increased visibility to Early Career Investigators who would otherwise be isolated or limited to very few local collaborators by connecting them with the whole European isogeny-based cryptography community.
 
-4. We will promote diversity in the community, for example by ensuring a diverse consortium and by collboration with the Women in Numbers Europe community. 
-
-[Chloe: keeping this in for now]
-What we discussed:
-- Bridging fields
-- Building new stuff
+4. We will promote diversity in the community, for example by ensuring a diverse consortium and by collaboration with the Women in Numbers Europe community.
 
 ## 2	NETWORKING EXCELLENCE
 

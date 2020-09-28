@@ -5,10 +5,88 @@
 
 ### 1.1	Soundness of the Challenge 
 
-TODO: Ben
+Elliptic curves have been central to the development of number theory throughout the 20th century,
+and of public-key cryptography in the 21st century.
+Their interest and utility is beyond question.
+Contemporary **Elliptic Curve Cryptography (ECC)**,
+which is now ubiquitous in digital security (from the internet to smart cards),
+represents a brilliant example
+of effective exchange and collaboration
+between researchers from pure mathematics (especially number theory and algebraic geometry),
+computer science, and engineering.
+
+**Isogenies**
+are algebraic mappings---essentially, nontrivial alebraic relationships---between elliptic curves.
+Isogenies play the elliptic-curve role that matrices play in linear algebra:
+they are fundamental to the study of elliptic curves.
+Until recently, 
+isogenies have played a minor and somewhat hidden role in ECC:
+for example, they are crucial in the generation of secure ECC parameters
+(in the SEA algorithm),
+and they have also been used to map hard cryptographic problems between curves.
+Indeed,
+it has been possible for researchers to learn and work in ECC without knowing about isogenies.
+
+In the past decade, however, 
+a new generation of public-key **isogeny-based cryptosystems** has appeared,
+rapidly gaining attention for their apparent resistance to 
+adversaries equipped with quantum computers,
+a quality that classical ECC spectacularly lacks.
+Here, isogenies emerge from the background to become the central objects.
+Indeed, in isogeny-based cryptosystems,
+
+- their *security* depends on the difficulty of reconstructing an unknown isogeny with classical and/or quantum computers;
+- their *utility* depends on highly efficient algorithms and software for computing isogenies; and
+- their proper *design and analysis* requires a deep understanding of the mathematical and algorithmic nature of isogenies.
+
+Isogeny-based cryptography is the newest of the main paradigms in **post-quantum cryptography**,
+but has already found some success.
+One early cryptosystem, SIKE, has progressed to the third round of the NIST post-quantum cryptography 
+as an alternate candidate.
+
+After this early success,
+the challenge now facing us is to renew, strengthen, and enlarge
+the collaboration between mathematicians, computer scientists,
+and engineers that was fundamental to the success of ECC,
+in order to better understand and establish isogeny-based cryptography.
 
 #### 1.1.1	DESCRIPTION OF THE STATE-OF-THE-ART
+
+Constructive SOA:
+
+- SIKE
+- CSIDH
+- Signature Schemes
+- VDFs
+- Other schemes
+
+SOA of cryptanalysis:
+
+- Basic classical collision- and golden-collision-finding algorithms
+- Quantum algorithms:
+    - quantum isogeny evaluation
+    - uncertain status of Kuperberg's algorithm etc
+    - ...
+
+SOA of supporting algorithms:
+- Large class group computations
+
 #### 1.1.2	DESCRIPTION OF THE CHALLENGE (MAIN AIM)
+
+Main challenges:
+
+- To grow and focus ECC-style collaboration
+- To involve more number theorists
+- To include engineers and computer scientists
+- To include quantum algorithm specialists
+- Protocol specialists
+
+What we need to build together, and knowledge we need to share effectively:
+
+- Improved algorithms for isogenies
+- Construction of databases and basic formulae
+- Large-scale computations for secure parameter generation and cryptanalysis
+- Common understanding of quantum security
 
 
 ### 1.2	Progress beyond the state-of-the-art 
@@ -18,12 +96,13 @@ TODO: Chloe (Chloe: I'll work on this properly after Ben has written the state-o
 #### 1.2.1	APPROACH TO THE CHALLENGE AND PROGRESS BEYOND THE STATE-OF-THE-ART
 
 To include:
--Book from summer school
--Cryptanalysis workshop(s)? + focussed workshop
--Development of new protocols by dedicated WG on number-theoretic foundations
--Implementation dedicated WG and focussed workshop(s)
--Database focussed workshop (follow-up from implementation or combined?)
--STSMs (e.g. to foster research connections formed at workshops??)
+
+- Book from summer school
+- Cryptanalysis workshop(s)? + focussed workshop
+- Development of new protocols by dedicated WG on number-theoretic foundations
+- Implementation dedicated WG and focussed workshop(s)
+- Database focussed workshop (follow-up from implementation or combined?)
+- STSMs (e.g. to foster research connections formed at workshops??)
 
 #### 1.2.2	Objectives
 

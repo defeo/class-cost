@@ -156,21 +156,21 @@ international community.
 
 2. Develop the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 
-3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for early career researchers and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open-source articles, books, and databases. 
+3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for Early Career Investigators and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open-source articles, books, and databases. 
 
-4. Provide input to international standardization bodies such as NIST and ETSI. For example, writing 'Requests for Comment' (RFCs), technical reports, and filing comments for the NIST post-quantum competition. 
+4. Provide input to international standardization bodies such as NIST and ETSI. For example, by writing 'Requests for Comment' (RFCs), technical reports, and filing comments for the NIST post-quantum competition. 
 
-5. Disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences.
+5. Disseminate the work achieved through COST collaborations by presenting at high-profile international cryptography conferences.
 
 ##### 1.2.2.2 Capacity-building Objectives
 
-1. Grow the field of isogeny-based cryptography by fostering existing research conections. Most of the innovative papers in the field have resulted from multinational collaborations facilitated by ad hoc workshops or visits; a research network will allow for much more regular collaboration and consequently a rapid increase in high-quality research output.
+1. Grow the field of isogeny-based cryptography by fostering existing research connections. Most of the innovative papers in the field have resulted from multinational collaborations facilitated by ad hoc workshops or visits; a research network will allow for much more regular collaboration and consequently give rise to a rapid increase in high-quality research output.
 
-2. The Action is by nature interdisciplinary. We will bring together researchers from cryptography, number theory, and quantum computing, all of whom have different perspectives on the major open problems in isogeny-based cryptography.
+2. Foster interdisciplinary approaches by bringing together researchers from cryptography, number theory, and quantum computing, all of whom have different perspectives on the major open problems in isogeny-based cryptography.
 
-3. We will give collaboration opportunities and increased visibility to Early Career Investigators who would otherwise be isolated or limited to very few local collaborators by connecting them with the whole European isogeny-based cryptography community.
+3. Give collaboration opportunities and increased visibility to Early Career Investigators who would otherwise be isolated or limited to very few local collaborators by connecting them with the whole European isogeny-based cryptography community.
 
-4. We will promote diversity in the community, for example by ensuring a diverse consortium and by collaboration with the Women in Numbers Europe community.
+4. Promote diversity in the community, for example by ensuring a diverse consortium and by collaborating with Women in Numbers Europe.
 
 ## 2	NETWORKING EXCELLENCE
 

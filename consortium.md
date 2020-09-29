@@ -31,6 +31,7 @@ Target countries in **bold**
 - Vincentiu Pasol (**Romania**)
 - Michal Wronski, Kijko, Drylo, Grzeskowiak, Baranczuk, Gierszewski (**Poland**)
 - Travis Morrison (USA)
+- Lukas Zobernig (NZ)
 
 Total target: 9
 Total non-target: 6

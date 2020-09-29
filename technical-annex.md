@@ -115,7 +115,8 @@ What we need to build together, and knowledge we need to share effectively:
 
 This action can be reasonably expected to make significant progress beyond the state-of-the-art in three main topics: constructing new protocols, cryptanalysis, and implementation.
 
-We see above that isogenies have proven already to be flexible in their breadth of cryptographic applications: (non-interative) key exchange, signatures, VDFS, and more. We will have a focussed working group on number-theoretic foundations in order to explore further the potential for new post-quantum as well as classical applications of isogenies;such a study may also lead to improved algorithms for the current popular isogeny-based constructions.
+We see above that isogenies have proven already to be flexible in their breadth of cryptographic applications: (non-interative) key exchange, signatures, VDFS, and more. 
+However, many of the classical cryptographic protocols from later generations, for example using pairings, do not yet have efficient post-quantum analogues. We will have a focussed working group on number-theoretic foundations in order to explore further the potential for new post-quantum as well as classical applications of isogenies; such a study may also lead to improved algorithms for the current popular isogeny-based constructions.
 
 With cryptanalysis it is especially important that the best classical and quantum algorithms to attack isogeny-based cryptosystems are well understood and pushed to their limits, as well as searching for new approaches. By the end of the action, we will have a unified stance on the classical and quantum security of SIKE and CSIDH, as well as more advanced protocols, and have a better understanding of the security of isogeny-based cryptography more generally. This will give much-needed confidence in the schemes before they are implemented on a wide-scale.
 
@@ -155,13 +156,11 @@ international community.
 
 2. Develop the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 
-3. Create an open source database of isogeny formulas. Such a database is an invaluable resource for researchers to keep track of, build upon, and expand the latest developments in the fast-moving area of efficient algorithms. This database will be a natural complement to and can be included in the already widely-used Explicit Formulas Database (https://hyperelliptic.org/EFD/). **TODO check with Tanja**. 
+3. Facilitating access to foundational knowledge in isogeny-based cryptography including mathematical background, algorithms, and protocol design. 
 
-4. Write the first textbook on isogeny-based cryptography: covering the basic topics needed for a newcomer to start doing research in the area.
+4. Input to international standards on post-quantum cryptography such as (but not limited to) the ongoing completition for post-qunatum cryptography standards being led by NIST.
 
-5. Input to international standards on post-quantum cryptography such as (but not limited to) the ongoing completition for post-qunatum cryptography standards being led by NIST.
-
-6. Disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences
+5. Disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences
  such as Eurocrypt and ANTS.
 
 

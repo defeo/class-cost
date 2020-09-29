@@ -14,6 +14,11 @@ represents a brilliant example
 of effective exchange and collaboration
 between researchers from pure mathematics (especially number theory and algebraic geometry),
 computer science, and engineering.
+Now, the new emergence of **isogeny-based cryptography**
+requires us to strengthen, broaden, and re-focus this computational and mathematical exchange
+for a renewed purpose:
+this is the goal of the Action.
+
 
 **Isogenies**
 are algebraic mappings---essentially, nontrivial alebraic relationships---between elliptic curves.
@@ -30,8 +35,7 @@ it has been possible for researchers to learn and work in ECC without knowing ab
 In the past decade, however, 
 a new generation of public-key **isogeny-based cryptosystems** has appeared,
 rapidly gaining attention for their apparent resistance to 
-adversaries equipped with quantum computers,
-a quality that classical ECC spectacularly lacks.
+adversaries equipped with quantum computers---a quality that classical ECC spectacularly lacks.
 Here, isogenies emerge from the background to become the central objects.
 Indeed, in isogeny-based cryptosystems,
 
@@ -40,7 +44,7 @@ Indeed, in isogeny-based cryptosystems,
 - their proper *design and analysis* requires a deep understanding of the mathematical and algorithmic nature of isogenies.
 
 Isogeny-based cryptography is the newest of the main paradigms in **post-quantum cryptography**,
-but has already found some success.
+but it has already found some success.
 One early cryptosystem, SIKE, has progressed to the third round of the NIST post-quantum cryptography 
 as an alternate candidate.
 
@@ -48,17 +52,35 @@ After this early success,
 the challenge now facing us is to renew, strengthen, and enlarge
 the collaboration between mathematicians, computer scientists,
 and engineers that was fundamental to the success of ECC,
-in order to better understand and establish isogeny-based cryptography.
+in order to better understand and establish the theory and practice of isogeny-based cryptography.
 
 #### 1.1.1	DESCRIPTION OF THE STATE-OF-THE-ART
 
-Constructive SOA:
+The beginning of isogeny-based cryptography (as we recognise it today)
+goes back to 2006,
+with the early public-key cryptosystems sketched by Stolbunov
+and the isogeny-based hash function of Charles, Goren, and Lauter.
+The first competitive cryptosystem was Jao and De Feo's SIDH (2009) 
+post-quantum key exchange algorithm,
+which became the basis of the SIKE key encapsulation mechanism (KEM)
+submitted to the NIST post-quantum standardization process.
+Early research on isogeny-based cryptosystems was mostly focused
+on SIDH, its cryptanalysis, and its efficient implementation.
 
-- SIKE
-- CSIDH
-- Signature Schemes
-- VDFs
-- Other schemes
+In recent years, however, Stolbunov's ideas have been revisited,
+producing an explosion of new cryptosystems based on the nexus
+of isogenies and class field theory.
+The most notable such cryptosystem is CSIDH,
+which promises to be the first post-quantum solution
+for non-interactive key exchange.
+
+However, the mathematical foundations of Stolbunov's cryptosystems and CSIDH
+lend themselves to more detailed constructions.
+In particular, 
+we now have new and efficient isogeny-based digital signature schemes,
+such as CSI-FiSh and SQISign,
+as well as advanced cryptosystems
+including threshold signatures and Verifiable Delay Functions.
 
 SOA of cryptanalysis:
 

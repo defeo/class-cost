@@ -156,13 +156,11 @@ international community.
 
 2. Develop the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 
-3. Facilitating access to foundational knowledge in isogeny-based cryptography including mathematical background, algorithms, and protocol design. 
+3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for early career researchers and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open-source articles, books, and databases. 
 
-4. Input to international standards on post-quantum cryptography such as (but not limited to) the ongoing completition for post-qunatum cryptography standards being led by NIST.
+4. Provide input to international standardization bodies such as NIST and ETSI. For example, writing 'Requests for Comment' (RFCs), technical reports, and filing comments for the NIST post-quantum competition. 
 
-5. Disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences
- such as Eurocrypt and ANTS.
-
+5. Disseminate the work achieved through COST collaboartions by presenting at high-profile international cryptography conferences.
 
 ##### 1.2.2.2 Capacity-building Objectives
 

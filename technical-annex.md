@@ -3,8 +3,6 @@
 
 ## 1	S&T EXCELLENCE
 
-### 1.1	Soundness of the Challenge 
-
 Elliptic curves have been central to the development of number theory throughout the 20th century,
 and of public-key cryptography in the 21st century.
 Their interest and utility is beyond question.
@@ -15,41 +13,51 @@ of effective exchange and collaboration
 between researchers from pure mathematics (especially number theory and algebraic geometry),
 computer science, and engineering.
 Now, the new emergence of **isogeny-based cryptography**
-requires us to strengthen, broaden, and re-focus this computational and mathematical exchange
-for a renewed purpose:
+requires us to strengthen, broaden, renew, and re-focus this exchange:
 this is the goal of the Action.
 
+
+### 1.1	Soundness of the Challenge 
+
+**Elliptic curves** are simple cubic equations that are a valuable source of groups and representations in number theory.
+Since the landmark 1985 works of Koblitz and Miller,
+they have gradually become an indispensable tool for cryptographers.
+Elliptic-curve cryptosystems are now widely deployed,
+and represent the state-of-the-art
+for key establishment in secure internet connections,
+for digital signature schemes,
+and for authentication and encryption in smart cards.
 
 **Isogenies**
 are algebraic mappings---essentially, nontrivial alebraic relationships---between elliptic curves.
 Isogenies play the elliptic-curve role that matrices play in linear algebra:
-they are fundamental to the study of elliptic curves.
+for number theorists, they are fundamental to the study of elliptic curves.
 Until recently, 
 isogenies have played a minor and somewhat hidden role in ECC:
 for example, they are crucial in the generation of secure ECC parameters
 (in the SEA algorithm),
 and they have also been used to map hard cryptographic problems between curves.
-Indeed,
+However,
 it has been possible for researchers to learn and work in ECC without knowing about isogenies.
 
 In the past decade, however, 
 a new generation of public-key **isogeny-based cryptosystems** has appeared,
 rapidly gaining attention for their apparent resistance to 
 adversaries equipped with quantum computers---a quality that classical ECC spectacularly lacks.
-Here, isogenies emerge from the background to become the central objects.
-Indeed, in isogeny-based cryptosystems,
-
-- their *security* depends on the difficulty of reconstructing an unknown isogeny with classical and/or quantum computers;
-- their *utility* depends on highly efficient algorithms and software for computing isogenies; and
-- their proper *design and analysis* requires a deep understanding of the mathematical and algorithmic nature of isogenies.
-
 Isogeny-based cryptography is the newest of the main paradigms in **post-quantum cryptography**,
-but it has already found some success.
-One early cryptosystem, SIKE, has progressed to the third round of the NIST post-quantum cryptography 
-as an alternate candidate.
+but it has already found some success:
+one early cryptosystem, SIKE,
+has been selected by NIST as an alternate candidate in the third round of its post-quantum cryptography standardization process.
 
-After this early success,
-the challenge now facing us is to renew, strengthen, and enlarge
+In isogeny-based cryptosystems,
+
+- *security* depends on the difficulty of reconstructing an unknown isogeny with classical and/or quantum computers;
+- *utility* depends on highly efficient algorithms and software for computing isogenies; and
+- proper *design and analysis* requires a deep understanding of the mathematical and algorithmic nature of isogenies.
+
+From a cryptographic perspective,
+our understanding of these three aspects is still rudimentary and immature.
+The challenge now facing us is to renew, strengthen, and enlarge
 the collaboration between mathematicians, computer scientists,
 and engineers that was fundamental to the success of ECC,
 in order to better understand and establish the theory and practice of isogeny-based cryptography.
@@ -66,6 +74,8 @@ which became the basis of the SIKE key encapsulation mechanism (KEM)
 submitted to the NIST post-quantum standardization process.
 Early research on isogeny-based cryptosystems was mostly focused
 on SIDH, its cryptanalysis, and its efficient implementation.
+As the most mature of isogeny-based cryptosystems,
+SIDH remains an important target.
 
 In recent years, however, Stolbunov's ideas have been revisited,
 producing an explosion of new cryptosystems based on the nexus
@@ -82,34 +92,67 @@ such as CSI-FiSh and SQISign,
 as well as advanced cryptosystems
 including threshold signatures and Verifiable Delay Functions.
 
-SOA of cryptanalysis:
+Conversely, these newer and more complicated cryptosystems
+require a more sophisticated security analysis,
+both classical and quantum.
+For example:
+SIDH security depends essentially on a claw-finding problem.
+Quantum claw-finding algorithms are relatively well-understood,
+and there is something of a consensus on their modelling and projected behaviour.
+In contrast,
+CSIDH security depends on an abelian hidden shift problem,
+which can be solved using Kuperberg's quantum algorithm
+with a quantum isogeny-evaluation subroutine;
+but so far concrete estimates for the cost of these algorithms
+have been wildly divergent.
 
-- Basic classical collision- and golden-collision-finding algorithms
-- Quantum algorithms:
-    - quantum isogeny evaluation
-    - uncertain status of Kuperberg's algorithm etc
-    - ...
-
-SOA of supporting algorithms:
-- Large class group computations
+Going beyond specific cryptosystems,
+the development of isogeny-based cryptography 
+requires a range of highly non-trivial supporting algorithms.
+For example:
+the CSI-FiSh signature scheme requires a massive precomputation
+of the ideal class group structure of a certain quadratic imaginary ring.
+Achieving this for the first proposed parameter set
+required a world-record class group computation
+by Beullens, Kleinjung, and Vercauteren.
+Instantiating schemes like CSI-FiSh
+at higher security levels,
+or with larger parameters in reaction to revised security estimates
+requires cutting-edge techniques in algebraic number theory,
+using algorithms that have been largely neglected by cryptographers
+for over a decade.
 
 #### 1.1.2	DESCRIPTION OF THE CHALLENGE (MAIN AIM)
 
-Main challenges:
+To advance and deploy isogeny-based cryptosystems
+we require
 
-- To grow and focus ECC-style collaboration
-- To involve more number theorists
-- To include engineers and computer scientists
-- To include quantum algorithm specialists
-- Protocol specialists
+1. An effective, constructive, and algorithmic understanding 
+   of mathematical structures such as quaternion algebras
+   which, while common in number theory,
+   are poorly-known and understood among ECC reseachers.
+1. A better understanding of quantum algorithms,
+   both established and new,
+   and their application to fundamental problems with isogenies 
+   and more broadly in number theory.
+1. The development of tools and algorithms from algebraic number theory,
+   such as class-group computations,
+   that have not been used in ECC research before,
+   and of which knowledge elsewhere in cryptography has grown stale.
+1. More effective and open exchange and transmission of knowledge
+   between researchers in cryptography and number theory,
+   expanding an interdisciplinary bridge
+   built by ECC.
+1. Increased interaction between specialists in isogenies
+   and theoretical cryptographers,
+   with a view to defining new post-quantum protocols
+   with solid foundations.
+1. A determined and unified effort 
+   to demystify isogenies for working cryptographers
+   and cryptographic engineers,
+   rendering the field accessible to practitioners.
 
-What we need to build together, and knowledge we need to share effectively:
-
-- Improved algorithms for isogenies
-- Construction of databases and basic formulae
-- Large-scale computations for secure parameter generation and cryptanalysis
-- Common understanding of quantum security
-
+To do this, we propose a European research network of number theorists, cryptographers, and specialists in quantum algorithms.  The network will be built upon a framework for fundamental research and effective communication, both within the network and with the broader international community.
 
 ### 1.2	Progress beyond the state-of-the-art 
 

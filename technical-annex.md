@@ -83,10 +83,12 @@ of isogenies and class field theory.
 The most notable such cryptosystem is CSIDH,
 which promises to be the first post-quantum solution
 for non-interactive key exchange.
+The crucial idea is the realisation of cryptosystems
+based on *group actions*.
 
 However, the mathematical foundations of Stolbunov's cryptosystems and CSIDH
 lend themselves to more detailed constructions.
-In particular, 
+In particular,
 we now have new and efficient isogeny-based digital signature schemes,
 such as CSI-FiSh and SQISign,
 as well as advanced cryptosystems

@@ -92,7 +92,10 @@ In particular,
 we now have new and efficient isogeny-based digital signature schemes,
 such as CSI-FiSh and SQISign,
 as well as advanced cryptosystems
-including threshold signatures and Verifiable Delay Functions.
+including threshold signatures and Verifiable Delay Functions.[^1]
+
+[^1:] This paragraph seems to suggest that SQISign or VDFs are based
+on CSIDH, which is wrong.
 
 Conversely, these newer and more complicated cryptosystems
 require a more sophisticated security analysis,
@@ -160,7 +163,7 @@ To do this, we propose a European research network of number theorists, cryptogr
 
 This action can be reasonably expected to make significant progress beyond the state-of-the-art in three main topics: constructing new protocols, cryptanalysis, and implementation.
 
-We see above that isogenies have proven already to be flexible in their breadth of cryptographic applications: (non-interative) key exchange, signatures, VDFS, and more. 
+We see above that isogenies have proven already to be flexible in their breadth of cryptographic applications: (non-interative) key exchange, signatures, VDFs, and more. 
 However, many of the classical cryptographic protocols from later generations, for example using pairings, do not yet have efficient post-quantum analogues. We will have a focussed working group on number-theoretic foundations in order to explore further the potential for new post-quantum as well as classical applications of isogenies; such a study may also lead to improved algorithms for the current popular isogeny-based constructions.
 
 With cryptanalysis it is especially important that the best classical and quantum algorithms to attack isogeny-based cryptosystems are well understood and pushed to their limits, as well as searching for new approaches. By the end of the action, we will have a unified stance on the classical and quantum security of SIKE and CSIDH, as well as more advanced protocols, and have a better understanding of the security of isogeny-based cryptography more generally. This will give much-needed confidence in the schemes before they are implemented on a wide-scale.
@@ -189,7 +192,7 @@ These missions will be vital for the continuation of the research inspired by ou
 #### 1.2.2	Objectives
 
 Although isogeny-based cryptography is still very much an emerging field, the time pressure of achieving post-quantum cryptographic standards
-and the memory benefits of using isogeny-based cryptosystems are facilitating the possibility of relatively early wide-scale adoption of
+and the resource benefits of using isogeny-based cryptosystems are facilitating the possibility of relatively early wide-scale adoption of
 isogeny-based cryptosystems. Our objectives, listed below, aim to mitigate the risk of early adoption where possible as well as develop a 
 unified global outlook in the field. In particular, no one country involved in the Action (or indeed globally) has a critical mass of
 isogeny-based cryptography researchers; a research network will facilitate regular discourse and collaboration between both the European and
@@ -201,9 +204,9 @@ international community.
 
 2. Develop the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 
-3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for Early Career Investigators and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open-source articles, books, and databases. 
+3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for Early Career Investigators and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open access articles, books, and databases. 
 
-4. Provide input to international standardization bodies such as NIST and ETSI. For example, by writing 'Requests for Comment' (RFCs), technical reports, and filing comments for the NIST post-quantum competition. 
+4. Provide input to international standardization bodies such as NIST and ETSI. For example, by writing 'Requests for Comment' (RFCs), technical reports, and filing public comments for the NIST post-quantum competition.
 
 5. Disseminate the work achieved through COST collaborations by presenting at high-profile international cryptography conferences.
 

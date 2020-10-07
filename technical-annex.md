@@ -200,11 +200,11 @@ international community.
 
 ##### 1.2.2.1 Research Coordination Objectives
 
-1. Lead a global discussion to develop a common understanding of both classical and quantum algorithms applied in cryptanalysis to isogeny-based cryptosystems. 
+1. Lead a global discussion to develop a common vocabulary across the various fields (cryptography, number theory, quantum computing), leading to a shared understanding of both classical and quantum algorithms used in isogeny-based cryptosystems. 
 
 2. Develop the field of isogeny-based cryptography both by improving the understanding of the existing protocols and by developing new protocols.
 
-3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for Early Career Investigators and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open access articles, books, and databases. 
+3. Facilitate access to foundational knowledge in isogeny-based cryptography, both for Early Career Investigators and newcomers to the field. This will include mathematical background, algorithms, and protocol design, and will be achieved for example through open access articles, books, blog posts, audiovisual media, and databases. 
 
 4. Provide input to international standardization bodies such as NIST and ETSI. For example, by writing 'Requests for Comment' (RFCs), technical reports, and filing public comments for the NIST post-quantum competition.
 
@@ -222,24 +222,153 @@ international community.
 
 ## 2	NETWORKING EXCELLENCE
 
-TODO: ??
-
 ### 2.1	Added value of networking in S&T Excellence
-#### 2.1.1	ADDED VALUE In relation to existing efforts at European and/or international level
 
-Related networks:
+Isogeny based cryptography is a relatively young field, which suffers
+from geographical dispersion and a small community size. On the other
+hand it has grown to a rich enough field that newcomers and the
+general public often lack accessible, complete and reliable
+information sources. On top of that, isogenies are often regarded as
+an exceptionally technical topic within the field of cryptography.
 
-- PQcrypto (https://pqcrypto.eu.org/)
-- AlgANT (http://algant.eu/)
-- Cryptography for Secure Digital Interaction (https://www.cost.eu/actions/IC1306/)
-- CRYPTACUS (https://www.cost.eu/actions/IC1403/, https://www.cryptacus.eu/en/)
-- WIN
-- CIMPA?
+By developing and structuring an international interdisciplinar
+network of researchers interested in the topic, providing them with
+well organized technical knowledge, powerful tools, and collaboration
+venues, the Action will accelerate the development of isogeny based
+cryptography, improve understanding, lower entry barriers, and
+facilitate industry adoption.
+
+#### 2.1.1	Added value in relation to existing efforts at European and/or international level
+
+We are not aware of any international effort primarily targeting
+isogeny-based cryptography, present or past.
+
+The yearly Elliptic Curve Cryptography (ECC) workshop
+(https://eccworkshop.org/) has often been the venue where researchers
+interested in isogeny based cryptography meet and start
+collaborations, and has also served as platform to form Early Career
+Investigators through the associated research school.  However the
+share of isogeny based cryptography within the event stays somewhat
+limited, and can hardly reach all the public target by the Action.
+
+Past European efforts related to the Action are:
+
+- COST Action IC1306, Cryptography for Secure Digital Interaction,
+  ended in 2018, bridging together several areas of cryptography.
+- COST Action IC1403, CRYPTACUS (https://www.cryptacus.eu/), ended in
+  2018, focusing on the security of cryptographic hardware and
+  software.
+- The H2020 project PQcrypto (https://pqcrypto.eu.org/), ended in
+  2018, focusing on candidates to the NIST post-quantum competiton.
+- The Marie Skłodowska-Curie Innovative Training Network 643161,
+  ECRYPT-NET (https://www.ecrypt.eu.org/), ended in 2019, developing
+  advanced cryptographic techniques for the Internet of Things and the
+  Cloud, including post-quantum solutions.
+- The AlgANT network (http://algant.eu/), a training network targeting
+  Masters and PhD in number theory, involving serveral European
+  universities.
+  
+Currently running European efforts related to the action are:
+
+- ERC Grant 669891, Almacrypt (http://www.almacrypt.eu/), which
+  mainly focuses on elliptic curve and integer factoring
+  cryptanalyses, but has also occasionally touched upon isogeny based
+  cryptography.
+- ERC Grant 805031, EPOQUE, focusing on
+  secure implemenation of NIST post-quantum candidates.
+
+The level of support these past and present project provide to isogeny
+based cryptography is very limited. By looking more broadly at public
+investments on research in cryptography, it is apparent that
+isogeny-based cryptography is underrepresented.  By bringing to life a
+coordinated research effort on isogeny based cryptography, the Action
+will consolidate Europe's lead on the topic, will bring it to a level
+of maturity otherwise hardly achievable, and will bootstrap a virtuous
+cycle leading to an increased representation of isogeny based
+cryptography in European and international research programmes.
+
 
 ### 2.2	ADDED VALUE OF NETWORKING IN IMPACT
+
+Owing to its small community size, geographical dispersion, and high
+degree of interdisciplinarity, it has repeatedly been observed that
+the most impactful work in isogeny based cryptography is often the
+result of large international collaborations, gathering expertise from
+more than one field.
+
+Research on isogeny based cryptography already happens through an
+international network, supported by various personal grants on a case
+by case basis. However this mode of functioning is exclusive, limiting
+participation to a small circle of insiders, holding innovation back,
+and potentially leading to stagnation in the field.
+
+By facilitating exchanges, fostering new collaborations, lowering
+entry barriers, ensuring diversity, the Action will maximise impact of
+isogeny based cryptography, shaping the technological landscape in the
+near and long term.
+
+
 #### 2.2.1	SECURING THE CRITICAL MASS AND EXPERTISE 
+
+Europe already is a leader in isogeny based cryptography, with well
+established networks in Belgium, France, Germany, the Netherlands,
+Switzerland, and the UK. However, several isolated researchers work in
+other European and Near Neighbouring countries, with limited access to
+networks.
+
+The Action brings together researchers from all these countries,
+securing the best experts in the field. The research schools and
+workshops will let many talented Early Career Researchers meet well
+established researchers in the field, fostering new collaborations,
+and accelerating the development of isogeny based cryptography by an
+order of magnitude.
+
+The Action will pay a particular attention to helping underrepresented
+groups join in the research effort. To this end, it will seek the
+collaboration of the Women In Number Theory community
+(http://womeninnumbertheory.org/) and of the Centre International de
+Mathématiques Pures et Appliquées (https://www.cimpa.info/) for
+selected workshops.
+
+
 #### 2.2.2	INVOLVEMENT OF STAKEHOLDERS
+
+Identify the most relevant stakeholders and present a clear plan to
+involve them in the Action.
+
+The main outputs of the action will be new cryptosystems and
+cryptanalyses, which will shape our technological future.  The primary
+stakeholders in this effort are standardization bodies, such as NIST
+or ETSI, and tech companies working in telecoms, cloud, IoT, etc. The
+Action will engage with standardization bodies by publishing
+recommendations, whitepapers, requests for comments (RFC), and filing
+public comments; members of the action will be encouraged to
+participate to standardization panels when relevant.
+
+It is worth mentioning that a number of industrial partners are
+already part of the consortium. Building on its industrial component,
+the Action will reach to a broader audience in tech companies using a
+variety of dissemination channels: talks, technical blog posts,
+audio-visual media, open source code, etc. Colocating workshops with
+major conferences that attract both an academic and an industrial
+audience will further increase impact for these stakeholders.
+
+Finally, universities and other academic institutions offering
+graduate programs in cryptography, algebra, number theory and quantum
+algorithms will benefit from the educational material published by the
+action, such as books and audio-visual content.
+
+
 #### 2.2.3	MUTUAL BENEFITS OF THE INVOLVEMENT OF SECONDARY PROPOSERS FROM NEAR NEIGHBOUR OR INTERNATIONAL PARTNER COUNTRIES OR INTERNATIONAL ORGANISATIONS
+
+Beyond Europe, the countries with the strongest networks in isogeny
+based cryptography are Canada, Japan, and the US. The involvement of
+these partners as secondary proposers is thus a natural step towards
+building a truly inclusive research network. The partnership will make
+it easier to disseminate the outputs of the Action to these
+international countries, and, reciprocally, it will help keep Action
+members informed on activities happening outside of Europe.
+
 
 ## 3	IMPACT
 
@@ -353,7 +482,7 @@ Throughout the duration of the Action, the official website will serve as a one 
 
 - News feeds, agenda, links to mailing lists and social media accounts providing informations on the Action's activities.
 
-- A regularly updated blog (1 post per month on average at least) discussing scientific topics related to the action using an informal style.
+- A regularly updated blog (1 post per month on average at least) discussing scientific topics related to the Action using an informal style.
 
 - A database of all scientific publications in the field of isogeny based cryptography, both by Action members and non-members, searchable and downloadable in machine readable formats.
 

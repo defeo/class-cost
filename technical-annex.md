@@ -29,7 +29,7 @@ for digital signature schemes,
 and for authentication and encryption in smart cards.
 
 **Isogenies**
-are algebraic mappings---essentially, nontrivial alebraic relationships---between elliptic curves.
+are algebraic mappings---essentially, nontrivial algebraic relationships---between elliptic curves.
 Isogenies play the elliptic-curve role that matrices play in linear algebra:
 for number theorists, they are fundamental to the study of elliptic curves.
 Until recently, 

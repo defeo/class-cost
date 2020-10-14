@@ -29,7 +29,7 @@ for digital signature schemes,
 and for authentication and encryption in smart cards.
 
 **Isogenies**
-are algebraic mappings---essentially, nontrivial alebraic relationships---between elliptic curves.
+are algebraic mappings---essentially, nontrivial algebraic relationships---between elliptic curves.
 Isogenies play the elliptic-curve role that matrices play in linear algebra:
 for number theorists, they are fundamental to the study of elliptic curves.
 Until recently, 
@@ -334,9 +334,6 @@ selected workshops.
 
 #### 2.2.2	INVOLVEMENT OF STAKEHOLDERS
 
-Identify the most relevant stakeholders and present a clear plan to
-involve them in the Action.
-
 The main outputs of the action will be new cryptosystems and
 cryptanalyses, which will shape our technological future.  The primary
 stakeholders in this effort are standardization bodies, such as NIST
@@ -344,7 +341,7 @@ or ETSI, and tech companies working in telecoms, cloud, IoT, etc. The
 Action will engage with standardization bodies by publishing
 recommendations, whitepapers, requests for comments (RFC), and filing
 public comments; members of the action will be encouraged to
-participate to standardization panels when relevant.
+participate in standardization panels when relevant.
 
 It is worth mentioning that a number of industrial partners are
 already part of the consortium. Building on its industrial component,
@@ -494,7 +491,7 @@ Throughout the duration of the Action, the official website will serve as a one 
 The website will be maintained for at least 4 years after the end of the action. We aim for it to become a standard source of information for the field, and be kept up to date in the long term.
 
 In the last year of the Action, selected lectures from the schools, plus invited essays if necessary,
-will be invited to become chapters of a book edited under the
+will be considered to become chapters of a book edited under the
 supervision of the Action and published with an academic publisher.
 
 The Action will disseminate its scientic discoveries through the usual academic channels. Gold open access will be the preferred publication model; fortunately, this is often the standard model in the appropriate communities. Should the action publish datasets (e.g., tables of polynomials, formulas, ...), these will be published according to open data practices. The action will generally not seek to establish patents, as these are typically considered a hindrance to the deployment of cryptosystems. Exceptions may be made when a member seeks to establish a "defensive patent"; in this case the member will be required to explicitly release the patent to the public domain royalty-free.

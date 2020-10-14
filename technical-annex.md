@@ -140,7 +140,8 @@ we require
    both established and new,
    and their application to fundamental problems with isogenies 
    and more broadly in number theory.
-1. The development of tools and algorithms from algebraic number theory,
+1. The development and adaptation of tools and algorithms 
+   from algebraic number theory,
    such as class-group computations,
    that have not been used in ECC research before,
    and of which knowledge elsewhere in cryptography has grown stale.

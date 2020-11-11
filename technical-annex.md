@@ -521,12 +521,31 @@ Due to its multidisciplinary nature, the Action brings together several communit
 
 #### 4.1.2	DESCRIPTION OF DELIVERABLES AND TIMEFRAME
 
-TODO: later
+**D1** Write a press release for the start of the project. This press release will give an overview of the project, focussing on our goals and impact, and show readers where to find more about the action.
 
-- book
-- EFD extension
-- classpol/modpol database
-- security whitepaper on SIKE or CSIDH?
+**D2** Create a website as a coherent reference on isogenies for researchers and a basis for training students and researchers new to the field. It will be first put together after an introductory workshop, and then maintained online and open source in order to allow for changes and additions. This resource will be informed by all four work packages in an ongoing manner.
+
+**D3.1** Security whitepaper on isogeny-based protocols. This deliverable will summarize the state of knowledge on the security of isogeny-based protocols at the start of the action and will serve as a starting point of WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
+
+**D3.2** Update security whitepaper on isogeny-based protocols. This deliverable will update the security whitepaper produced in D3.1 at the end of the action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems and on new or clarified security assumptions that appear during the course of the action as part of WG2 and WG3 respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
+
+**D4** Create an online database with the formulas needed for isogeny computations and isogeny-based cryptography. These include classic formulas, such as Velu’s, as well as more recent work, such as VeluSQRT, radical isogenies, and the new input from WP4. The final result will be a useful tool for both implementers and protocol designers: a comprehensive and easy-to-access overview of the literature with regards to isogeny computation formulas.
+
+**D5** Publish a book on isogeny-based cryptography. This textbook will provide a comprehensive resource for the background knowledge required to work in isogeny-based cryptogaphy, and will be informed by all work packages. The book will be published formally with an academic publisher in the last year of the action.
+
+**D6** A press release for the end of the project. This press release will give an overview what we achieved during the course of the action, focussing on impact. We will also point readers towards our website and other resources created during the course of the action where they can learn more about our research.
 
 #### 4.1.3	Risk analysis and Contingency Plans
 #### 4.1.4	GANTT Diagram
+
+Chloe TODO in some version of Word on Thursday
+
+Plan 
+D1: Q1 of Y1
+D2: start at introductory workshop, end Q4 of Y1 (does it need to be extended for maintenance of the website?)
+D3.1: whole of Y1
+D3.2: whole of Y4
+D4: whole of Y2 and Y3
+D5: whole of Y2, Y3, and Y4
+D6: Q4 of Y4
+

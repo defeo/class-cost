@@ -35,7 +35,7 @@ for number theorists, they are fundamental to the study of elliptic curves.
 Until recently, 
 isogenies have played a minor and somewhat hidden role in ECC:
 for example, they are crucial in the generation of secure ECC parameters
-(in the SEA algorithm),
+(in the Schoof-Elkies-Atkin point counting algorithm),
 and they have also been used to map hard cryptographic problems between curves.
 However,
 it has been possible for researchers to learn and work in ECC without knowing about isogenies.
@@ -47,7 +47,7 @@ adversaries equipped with quantum computers---a quality that classical ECC spect
 Isogeny-based cryptography is the newest of the main paradigms in **post-quantum cryptography**,
 but it has already found some success:
 one early cryptosystem, SIKE,
-has been selected by NIST as an alternate candidate in the third round of its post-quantum cryptography standardization process.
+has been selected by the National Institute of Standards and Tehcnology (NIST) as an alternate candidate in the third round of its post-quantum cryptography standardization process.
 
 In isogeny-based cryptosystems,
 
@@ -70,7 +70,7 @@ with the early public-key cryptosystems sketched by Stolbunov
 and the isogeny-based hash function of Charles, Goren, and Lauter.
 The first competitive cryptosystem was Jao and De Feo's SIDH (2009) 
 post-quantum key exchange algorithm,
-which became the basis of the SIKE key encapsulation mechanism (KEM)
+which became the basis of the SIKE Key Encapsulation Mechanism (KEM)
 submitted to the NIST post-quantum standardization process.
 Early research on isogeny-based cryptosystems was mostly focused
 on SIDH, its cryptanalysis, and its efficient implementation.
@@ -89,10 +89,11 @@ based on *group actions*.
 However, the mathematical foundations of Stolbunov's cryptosystems and CSIDH
 lend themselves to more detailed constructions.
 We now have a new and efficient isogeny-based digital signature schemes, CSI-FiSh,
-and more advanced protocols such as threshold signatures.
+and more advanced protocols such as threshold  and ringsignatures.
+
 The flexibility of isogeny-based cryptosystems more generally has also recently come to light
 in, for example, another efficient isogeny-based digital signature scheme, SQISign,
-and isogeny-based Verifiable Delay Functions.
+and isogeny-based Verifiable Delay Functions (VDF).
 
 Conversely, these newer and more complicated cryptosystems
 require a more sophisticated security analysis,
@@ -127,7 +128,7 @@ for over a decade.
 #### 1.1.2	DESCRIPTION OF THE CHALLENGE (MAIN AIM)
 
 To advance and deploy isogeny-based cryptosystems
-we require
+the Action requires
 
 1. An effective, constructive, and algorithmic understanding 
    of mathematical structures such as quaternion algebras
@@ -155,44 +156,43 @@ we require
    and cryptographic engineers,
    rendering the field accessible to practitioners.
 
-To do this, we propose a European research network of number theorists, cryptographers, and specialists in quantum algorithms.  The network will be built upon a framework for fundamental research and effective communication, both within the network and with the broader international community.
+To do this, The action will put together a European research network of number theorists, cryptographers, and specialists in quantum algorithms.  The network will be built upon a framework for fundamental research and effective communication, both within the network and with the broader international community.
 
 ### 1.2	Progress beyond the state-of-the-art 
 
-This action can be reasonably expected to make significant progress beyond the state-of-the-art in three main topics: constructing new protocols, cryptanalysis, and implementation.
+This Action can be reasonably expected to make significant progress beyond the state-of-the-art in three main topics: constructing new protocols, cryptanalysis, and implementation.
 
 We see above that isogenies have proven already to be flexible in their breadth of cryptographic applications: (non-interative) key exchange, signatures, VDFs, and more. 
-However, many of the classical cryptographic protocols from later generations, for example using pairings, do not yet have efficient post-quantum analogues. We will have a focussed working group on number-theoretic foundations in order to explore further the potential for new post-quantum as well as classical applications of isogenies; such a study may also lead to improved algorithms for the current popular isogeny-based constructions.
+However, many of the classical cryptographic protocols from later generations, for example using pairings, do not yet have efficient post-quantum analogues. The Action will have a focussed Working Group on number-theoretic foundations in order to explore further the potential for new post-quantum as well as classical applications of isogenies; such a study may also lead to improved algorithms for the current popular isogeny-based constructions.
 
-With cryptanalysis it is especially important that the best classical and quantum algorithms to attack isogeny-based cryptosystems are well understood and pushed to their limits, as well as searching for new approaches. By the end of the action, we will have a unified stance on the classical and quantum security of SIKE and CSIDH, as well as more advanced protocols, and have a better understanding of the security of isogeny-based cryptography more generally. This will give much-needed confidence in the schemes before they are implemented on a wide-scale.
+With cryptanalysis it is especially important that the best classical and quantum algorithms to attack isogeny-based cryptosystems are well understood and pushed to their limits, as well as searching for new approaches. By the end of the Action, we will have a unified stance on the classical and quantum security of SIKE and CSIDH, as well as more advanced protocols, and have a better understanding of the security of isogeny-based cryptography more generally. This will give much-needed confidence in the schemes before they are implemented on a wide-scale.
 
 Secure and efficient implementation is a very active topic in isogeny-based cryptography. 
-Through this action, by the careful creation of databases and coordination of work it will be possible to present secure and optimized implementations for not only the main protocols but also for new constructions. 
+Through this Action, by the careful creation of databases and coordination of work it will be possible to present secure and optimized implementations for not only the main protocols but also for new constructions. 
 
 #### 1.2.1	APPROACH TO THE CHALLENGE AND PROGRESS BEYOND THE STATE-OF-THE-ART
 
-Our approach to the challenge from the perspective of the network has two main foci: introducing young researchers to the main open problems while equipping them with the tools they will need, and bringing together researchers from different fields to learn from each others' different perspectives. 
+The Action approach to the challenge from the perspective of the network has two main foci: introducing young researchers to the main open problems while equipping them with the tools they will need, and bringing together researchers from different fields to learn from each others' different perspectives. 
 
-Concretely, for the first aim we plan to hold a week-long school near the beginning of the action, 
-and to create a book with chapters contributed by the lecturers of this school. The book will be maintained on an open source online platform with possibility for the future addition (or removal) of chapters until the end of the action, 
-due to the fact that the topic is still changing rapidly, and will be formally published during the last year of the action.
+Concretely, for the first aim a week-long school will be heald near the beginning of the Action, 
+and a book with chapters contributed by the lecturers of this school will be created. The book will be maintained on an open source online platform with possibility for the future addition (or removal) of chapters until the end of the Action, 
+due to the fact that the topic is still changing rapidly, and will be formally published during the last year of the Action.
 
-For the second aim, 
-we will bring together reseachers from different fields by means of both dedicate working groups and workshops. 
+For the second aim, the Action will bring together reseachers from
+different fields by means of both dedicate Working Groups and
+workshops, structured around the four pillars of number theoretic
+foundations, cryptanalysis, primitives and protocols, and
+implementations; as well as transversal activities involving more than
+one Working group.
 
-- For cryptanalysis, we will hold a dedicated workshop, with follow-up workshops focussed on aspects of (classical or quantum) cryptnalysis that prove to be of interest to the partners in the action. 
-- For the development of new protocols, we have a dedicated working group on number-theoretic foundations.
-- For implementation, we have dedicated working group, and we will also hold implementation focussed workshops throughout the action.
-This will include a workshop dedicated to the creation of a database for isogeny formulas.
-
-Finally, we will support Short-Term Scientific Missions, especially to foster research connections formed at the aforementioned workshops, throughout the entire action period.
-These missions will be vital for the continuation of the research inspired by our workshops, and especially prioritise mobility for young researchers and participants who do not have access to alternate travel funding.
+Finally, the Action will support Short-Term Scientific Missions, especially to foster research connections formed at the aforementioned workshops, throughout the entire Action period.
+These missions will be vital for the continuation of the research inspired by the workshops, and especially prioritise mobility for young researchers and participants who do not have access to alternate travel funding.
 
 #### 1.2.2	Objectives
 
 Although isogeny-based cryptography is still very much an emerging field, the time pressure of achieving post-quantum cryptographic standards
 and the resource benefits of using isogeny-based cryptosystems are facilitating the possibility of relatively early wide-scale adoption of
-isogeny-based cryptosystems. Our objectives, listed below, aim to mitigate the risk of early adoption where possible as well as develop a 
+isogeny-based cryptosystems. The objectives of the Action, listed below, aim to mitigate the risk of early adoption where possible as well as to develop a 
 unified global outlook in the field. In particular, no one country involved in the Action (or indeed globally) has a critical mass of
 isogeny-based cryptography researchers; a research network will facilitate regular discourse and collaboration between both the European and
 international community. 
@@ -239,8 +239,8 @@ facilitate industry adoption.
 
 #### 2.1.1	Added value in relation to existing efforts at European and/or international level
 
-We are not aware of any international effort primarily targeting
-isogeny-based cryptography, present or past.
+The proposers are not aware of any international effort primarily
+targeting isogeny-based cryptography, present or past.
 
 The yearly Elliptic Curve Cryptography (ECC) workshop
 (https://eccworkshop.org/) has often been the venue where researchers
@@ -248,7 +248,7 @@ interested in isogeny based cryptography meet and start
 collaborations, and has also served as platform to form Early Career
 Investigators through the associated research school.  However the
 share of isogeny based cryptography within the event stays somewhat
-limited, and can hardly reach all the public target by the Action.
+limited, and can hardly reach all the public targeted by the Action.
 
 Past European efforts related to the Action are:
 
@@ -267,7 +267,7 @@ Past European efforts related to the Action are:
   Masters and PhD in number theory, involving serveral European
   universities.
   
-Currently running European efforts related to the action are:
+Currently running European efforts related to the Action are:
 
 - ERC Grant 669891, Almacrypt (http://www.almacrypt.eu/), which
   mainly focuses on elliptic curve and integer factoring
@@ -332,33 +332,32 @@ selected workshops.
 
 #### 2.2.2	INVOLVEMENT OF STAKEHOLDERS
 
-The main outputs of the action will be new cryptosystems and
+The main outputs of the Action will be new cryptosystems and
 cryptanalyses, which will shape our technological future.  The primary
 stakeholders in this effort are standardization bodies, such as NIST
 or ETSI, and tech companies working in telecoms, cloud, IoT, etc. The
 Action will engage with standardization bodies by publishing
 recommendations, whitepapers, requests for comments (RFC), and filing
-public comments; members of the action will be encouraged to
+public comments; members of the Action will be encouraged to
 participate in standardization panels when relevant.
 
-It is worth mentioning that a number of industrial partners are
-already part of the consortium. Building on its industrial component,
+Building on its already established ties with industry partners,
 the Action will reach to a broader audience in tech companies using a
 variety of dissemination channels: talks, technical blog posts,
-audio-visual media, open source code, etc. Colocating workshops with
+audio-visual media, open source code, etc. Co-locating workshops with
 major conferences that attract both an academic and an industrial
 audience will further increase impact for these stakeholders.
 
 Finally, universities and other academic institutions offering
 graduate programs in cryptography, algebra, number theory and quantum
 algorithms will benefit from the educational material published by the
-action, such as books and audio-visual content.
+Action, such as books and audio-visual content.
 
 
 #### 2.2.3	MUTUAL BENEFITS OF THE INVOLVEMENT OF SECONDARY PROPOSERS FROM NEAR NEIGHBOUR OR INTERNATIONAL PARTNER COUNTRIES OR INTERNATIONAL ORGANISATIONS
 
 Beyond Europe, the countries with the strongest networks in isogeny
-based cryptography are Canada, Japan, and the US. The involvement of
+based cryptography are Canada, and the United States. The involvement of
 these partners as secondary proposers is thus a natural step towards
 building a truly inclusive research network. The partnership will make
 it easier to disseminate the outputs of the Action to these
@@ -374,7 +373,7 @@ safely and cost-effectively, isogeny-based protocols in future
 communication protocols, the Action will positively impact the
 competitiveness of SMEs and large companies in Europe and beyond.
 
-The action will seek to maximise impact by disseminating results in
+The Action will seek to maximise impact by disseminating results in
 written form (books, academic papers, whitepapers, blog posts), and by
 training a new generation of young researchers and engineers in the
 fundamental tools of isogeny-based cryptography.
@@ -407,7 +406,7 @@ primitives not currently known to be constructible from isogenies,
 better provable security for already known primitives, and more
 in-depth analyses of available attacks. Although on a longer
 time-scale than SIKE, these innovations will directly benefit
-stakeholders operating in the post-quantum space such as SMEs and
+stakeholders operating in the post-quantum space such as small-to-midsize businesses and
 large companies offering encrypted products with long-term security.
 
 Beyond post-quantum cryptography, the recently discovered "time delay
@@ -420,7 +419,7 @@ services. The Action will advance the state-of-the-art of time delay
 protocols, providing more powerful constructions, more efficient
 protocols, and more secure instantiations.
 
-Finally, in terms of scientific impact, the goal of the action is to
+Finally, in terms of scientific impact, the goal of the Action is to
 establish a common language and to reach a critical mass capable of
 accelerating progress in isogeny-based cryptography. The various
 actions described in the implementation section (workshops, schools,
@@ -446,13 +445,12 @@ talks, posters, and work sessions. To encourage outside participation,
 the Action will seek to co-locate the meetings with related
 conferences, e.g., Eurocrypt or ANTS. Lecturers will be encouraged to
 write lecture notes, and the notes will be collected on the website of
-the Action [Luca: or shall we try to publish proceedings?] 
-[Chloe: nice idea, but do we want to promise that now already?]. Whenever
+the Action. Whenever
 technically possible, measures will be taken to also encourage remote
 participation; at a minimum, lectures will be recorded and made
 available online shortly after the workshop.
 
-Between yearly meetings, the action will organize smaller workshops or
+Between yearly meetings, the Action will organize smaller workshops or
 schools focused on narrower topics, typically involving one or two
 Working Groups. The workshops will primarily be targeted at Action
 members, but will be open to anyone, within the capacity of the event.
@@ -486,26 +484,26 @@ Throughout the duration of the Action, the official website will serve as a one 
 
 - Information on the management of the Action.
 
-The website will be maintained for at least 4 years after the end of the action. We aim for it to become a standard source of information for the field, and be kept up to date in the long term.
+The website will be maintained for at least 4 years after the end of the Action. The aim is for it to become a standard source of information for the field, and be kept up to date in the long term.
 
 In the last year of the Action, selected lectures from the schools, plus invited essays if necessary,
 will be considered to become chapters of a book edited under the
 supervision of the Action and published with an academic publisher.
 
-The Action will disseminate its scientic discoveries through the usual academic channels. Gold open access will be the preferred publication model; fortunately, this is often the standard model in the appropriate communities. Should the action publish datasets (e.g., tables of polynomials, formulas, ...), these will be published according to open data practices. The action will generally not seek to establish patents, as these are typically considered a hindrance to the deployment of cryptosystems. Exceptions may be made when a member seeks to establish a "defensive patent"; in this case the member will be required to explicitly release the patent to the public domain royalty-free.
+The Action will disseminate its scientic discoveries through the usual academic channels. Green or gold open access will be the preferred publication model; fortunately, this is often the standard model in the appropriate communities. Datasets published by the Action (e.g., tables of polynomials, formulas, ...) will follow standard open data practices. The Action will generally not seek to establish patents, as these are typically considered a hindrance to the deployment of cryptosystems. Exceptions may be made when a member seeks to establish a "defensive patent"; in this case the member will be required to explicitly release the patent to the public domain royalty-free.
 
 The Action will target strategic venues for its communications: major conferences and journals in cryptography and number theory, targeted workshops on post-quantum cryptography, and standardization body meetings. In particular, the Action will target the workshops regularly organized by NIST as part of the post-quantum competition, by submitting whitepapers and contributed talks.
 
 Software produced by the Action will mostly consist of research software for demonstrative purposes, or contributions to open source computer algebra systems (e.g., PARI/GP, Sagemath, Oscar, ...). In both cases, the code will be published under standard open source licenses, such as the GPL. Occasionally, some of these software may be integrated in the products of the industrial partners of the Action. As a general rule, the open source license will still apply to the software; most companies in cryptography regularly work with open source software. If the open source license does cause a problem with an industrial partner however, the authors of the code may decide to grant an additional closed source license to the industrial partner.
 
-Besides advancing the state-of-the-art, the action also aims at making isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at schools.
+Besides advancing the state-of-the-art, the Action also aims at making isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at schools.
 
 
 ## 4	IMPLEMENTATION
 ### 4.1	COHERENCE AND EFFECTIVENESS OF THE WORK PLAN
 #### 4.1.1	DESCRIPTION OF WORKING GROUPS, TASKS AND ACTIVITIES
 
-Due to its multidisciplinary nature, the Action brings together several communities with different expertise and vocabularies. The work plan will be structured around 4 Working Groups (WG), roughly corresponding to each of the communities. We describe the WG below.
+Due to its multidisciplinary nature, the Action brings together several communities with different expertise and vocabularies. The work plan will be structured around 4 Working Groups (WG), roughly corresponding to each of the communities, as described below.
 
 **WG1 - Number theoretic foundations** This WG will be concerned with the mathematical foundations of isogeny-based cryptography, rooted in number theory and algebraic geometry. It will study the objects upon which cryptographic protocols are built, their generalisations and their algorithmic properties. In particular, it will research efficient algorithms for working with isogenies of elliptic curves and higher dimensional abelian varieties, the structure of isogeny graphs, and the algorithmic relationships with their endomorphism rings. Its outputs will inform the other working groups on the best algorithmic ways to reach their goals, and on the potential risks to security. From the other WG, it will draw inspiration for useful properties to look for in the algebraic objects.
 
@@ -520,21 +518,24 @@ Additionally, theoretical hardware attacks and the theoretical security levels a
 
 #### 4.1.2	DESCRIPTION OF DELIVERABLES AND TIMEFRAME
 
-**D1** Write a press release for the start of the Action. This press release will give an overview of the Action, focussing on our goals and impact, and show readers where to find more about the Action.
+**D1, Month 3** Write a press release for the start of the Action. This press release will give an overview of the Action, focussing on the goals and impact, and show readers where to find more about the Action.
 
-**D2** Create a website as a coherent reference on isogenies for researchers and a basis for training students and researchers new to the field. It will be first put together after an introductory workshop, and then maintained online and open source in order to allow for changes and additions. This resource will be informed by all four work packages in an ongoing manner.
+**D2, Month 6** Create a website as a coherent reference on isogenies for researchers and a basis for training students and researchers new to the field. It will be first put together after an introductory workshop, and then maintained online and open source in order to allow for changes and additions. This resource will be informed by all four work packages in an ongoing manner.
 
-**D3.1** Security whitepaper on isogeny-based protocols. This deliverable will summarize the state of knowledge on the security of isogeny-based protocols at the start of the Action and will serve as a starting point of WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
+**D3.1, Month 9** Security whitepaper on isogeny-based protocols. This deliverable will summarize the state of knowledge on the security of isogeny-based protocols at the start of the Action and will serve as a starting point of WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
 
-**D3.2** Update security whitepaper on isogeny-based protocols. This deliverable will update the security whitepaper produced in D3.1 at the end of the Action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems and on new or clarified security assumptions that appear during the course of the action as part of WG2 and WG3 respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
+**D3.2, Month 45** Updated security whitepaper on isogeny-based protocols. This deliverable will update the security whitepaper produced in D3.1 at the end of the Action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems and on new or clarified security assumptions that appear during the course of the Action as part of WG2 and WG3 respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
 
-**D4** Create an online database with the formulas needed for isogeny computations and isogeny-based cryptography. These include classic formulas, such as Velu’s, as well as more recent work, such as VeluSQRT, radical isogenies, and the new input from WP4. The final result will be a useful tool for both implementers and protocol designers: a comprehensive and easy-to-access overview of the literature with regards to isogeny computation formulas.
+**D4, Month 24** Create an online database with the formulas needed for isogeny computations and isogeny-based cryptography. These include classic formulas, such as Vélu’s, as well as more recent work, such as VeluSQRT, radical isogenies, and the new input from WP4. The final result will be a useful tool for both implementers and protocol designers: a comprehensive and easy-to-access overview of the literature with regards to isogeny computation formulas.
 
-**D5** Publish a book on isogeny-based cryptography. This textbook will provide a comprehensive resource for the background knowledge required to work in isogeny-based cryptogaphy, and will be informed by all work packages. The book will be published formally with an academic publisher in the last year of the Action.
+**D5, Month 42** Publish a book on isogeny-based cryptography. This textbook will provide a comprehensive resource for the background knowledge required to work in isogeny-based cryptogaphy, and will be informed by all work packages. The book will be published formally with an academic publisher in the last year of the Action.
 
-**D6** A press release for the end of the project. This press release will give an overview what we achieved during the course of the Action, focussing on impact. We will also point readers towards our website and other resources created during the course of the Action where they can learn more about our research.
+**D6, Month 48** A press release for the end of the project. This press release will give an overview what the Action achieved during the course of the Action, focussing on impact. The press release will also point readers towards the official website and other resources created during the course of the Action where they can learn more about our research.
 
 #### 4.1.3	Risk analysis and Contingency Plans
+
+
+
 #### 4.1.4	GANTT Diagram
 
 Chloe TODO in some version of Word on Thursday

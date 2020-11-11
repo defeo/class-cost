@@ -88,14 +88,11 @@ based on *group actions*.
 
 However, the mathematical foundations of Stolbunov's cryptosystems and CSIDH
 lend themselves to more detailed constructions.
-In particular,
-we now have new and efficient isogeny-based digital signature schemes,
-such as CSI-FiSh and SQISign,
-as well as advanced cryptosystems
-including threshold signatures and Verifiable Delay Functions.[^1]
-
-[^1:] This paragraph seems to suggest that SQISign or VDFs are based
-on CSIDH, which is wrong.
+We now have a new and efficient isogeny-based digital signature schemes, CSI-FiSh,
+and more advanced protocols such as threshold signatures.
+The flexibility of isogeny-based cryptosystems more generally has also recently come to light
+in, for example, another efficient isogeny-based digital signature scheme, SQISign,
+and isogeny-based Verifiable Delay Functions.
 
 Conversely, these newer and more complicated cryptosystems
 require a more sophisticated security analysis,
@@ -182,9 +179,10 @@ due to the fact that the topic is still changing rapidly, and will be formally p
 
 For the second aim, 
 we will bring together reseachers from different fields by means of both dedicate working groups and workshops. 
--For cryptanalysis, we will hold a dedicated workshop, with follow-up workshops focussed on aspects of (classical or quantum) cryptnalysis that prove to be of interest to the partners in the action. 
--For the development of new protocols, we have a dedicated working group on number-theoretic foundations.
--For implementation, we have dedicated working group, and we will also hold implementation focussed workshops throughout the action.
+
+- For cryptanalysis, we will hold a dedicated workshop, with follow-up workshops focussed on aspects of (classical or quantum) cryptnalysis that prove to be of interest to the partners in the action. 
+- For the development of new protocols, we have a dedicated working group on number-theoretic foundations.
+- For implementation, we have dedicated working group, and we will also hold implementation focussed workshops throughout the action.
 This will include a workshop dedicated to the creation of a database for isogeny formulas.
 
 Finally, we will support Short-Term Scientific Missions, especially to foster research connections formed at the aforementioned workshops, throughout the entire action period.
@@ -265,7 +263,7 @@ Past European efforts related to the Action are:
   ECRYPT-NET (https://www.ecrypt.eu.org/), ended in 2019, developing
   advanced cryptographic techniques for the Internet of Things and the
   Cloud, including post-quantum solutions.
-- The AlgANT network (http://algant.eu/), a training network targeting
+- The ALGANT network (http://algant.eu/), a training network targeting
   Masters and PhD in number theory, involving serveral European
   universities.
   

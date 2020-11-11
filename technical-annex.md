@@ -515,7 +515,8 @@ Due to its multidisciplinary nature, the Action brings together several communit
 
 **WG3 - Primitives, Protocols and Assumptions** This WG will research new primitives and protocols that can be built from isogenies. It will monitor the emergence of new primitives that have a potential to be built from isogenies, and inform other WGs in the hope of coming with a working proposal. It will construct new protocols (mostly advanced ones that go beyond encryption and signatures) using the available primitives, and seek to make them as efficient as possible in collaboration with WG4. Inspired by protocols in other subfields (e.g., lattice based cryptography), it will propose new isogeny-based assumptions upon which new protocols can be constructed, and assess their security in collaboration with WG1 and WG2.
 
-**WG4 - Hardware & Software implementations** This WG will produce high efficiency implementations of isogeny algorithms and protocols, both in hardware and in software. It will discuss with WG2 to determine the most efficient parameters for a given security level. It will interact with WG1 to seek new theoretically efficient algorithms for isogeny computations, that translate into fast software and hardware.
+**WG4 - Hardware & Software implementations** This WG will produce high efficiency secure implementations of isogeny algorithms and protocols, both in hardware and in software. It will discuss with WG2 to determine the most efficient parameters for a given security level. It will interact with WG1 to seek new theoretically efficient algorithms for isogeny computations, that translate into fast software and hardware. The security of the implementations will be considered on both a software level, informed partly by WG2, and on a hardware level, taking for example side-channel and fault attacks into account.
+Additionally, theoretical hardware attacks and the theoretical security levels as computed by work in WG2 will be verified and refined by implementation and practical experiments with the attacks.
 
 [We need to say something about transversality, risk management, and how we make the WG talk to each other]
 
@@ -548,4 +549,3 @@ D3.2: whole of Y4
 D4: whole of Y2 and Y3
 D5: whole of Y2, Y3, and Y4
 D6: Q4 of Y4
-

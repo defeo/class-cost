@@ -76,10 +76,10 @@ COST Framework's goal of counterbalancing inequality in access to
 knowledge, funding, infrastructure, and resources.
 
 MAGIC is committed to improving gender diversity in European research.
-The Main Proposer is female, and 25% of the Proposers are women.  Many
-more students and non-permanent staff involved in the Action (but not
-named as Proposers) are women, and the Action will provide a valuable
-means of increasing their visibility and building their scientific
-careers through integration in leading European research networks,
-while also offering opportunities for leadership.
+The Main Proposer is female, and one-third of the Proposers are women.
+Many more students and non-permanent staff involved in the Action (but
+not named as Proposers) are women, and the Action will provide a
+valuable means of increasing their visibility and building their
+scientific careers through integration in leading European research
+networks, while also offering opportunities for leadership.
 

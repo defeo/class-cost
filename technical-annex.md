@@ -525,7 +525,13 @@ Due to its multidisciplinary nature, the Action brings together several communit
 **WG4 - Hardware & Software implementations** This WG will produce high efficiency secure implementations of isogeny algorithms and protocols, both in hardware and in software. It will discuss with WG2 to determine the most efficient parameters for a given security level. It will interact with WG1 to seek new theoretically efficient algorithms for isogeny computations, that translate into fast software and hardware. The security of the implementations will be considered on both a software level, informed partly by WG2, and on a hardware level, taking for example side-channel and fault attacks into account.
 Additionally, theoretical hardware attacks and the theoretical security levels as computed by work in WG2 will be verified and refined by implementation and practical experiments.
 
-[We need to say something about transversality, risk management, and how we make the WG talk to each other]
+There is a clear transversality between the Working Groups, as described
+above.  Realising this transversality through effective communication and
+interaction will be essential to realising each Working Group's full
+potential, and also to mitigating the particular risks that each Working
+Group will face.  These aspects are addressed below.
+
+[We need to say something about transversality, risk management, and how we make the WG talk to each other.  Ben: will the above do?]
 
 #### 4.1.2	DESCRIPTION OF DELIVERABLES AND TIMEFRAME
 

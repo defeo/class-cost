@@ -11,27 +11,27 @@ design and analyse efficient and secure isogeny-based cryptosystems.
 This exchange is far from one-way traffic: hard problems motivated by
 and crystallised in cryptography have long acted as a stimulant for
 research in number theory.  Beyond the potential gains for each side,
-the bridge formed by isogeny-based cryptography is a worthy research
-target in itself.
+the interdisciplinary bridge formed by isogeny-based cryptography is a 
+worthy research target in itself.
 
-This combination targeting isogeny-based cryptography
-is particularly timely, given the current global
+This combination targeted specifically at isogeny-based cryptography
+is particularly timely given the current global
 interest in post-quantum cryptography, which responds to the need for
 private and authenticated communication in an age of quantum supremacy.
 Isogeny-based cryptography is the youngest branch of post-quantum
-cryptography, with the highest level of mathematical technicity: the
+cryptography, with the highest level of mathematical technicality: the
 collaboration and intersection of expertise fostered by the Action is
-critical to driving this research area forwards.
+critical to driving this research area forward.
 
 MAGIC will strengthen European research capacities by creating,
 organising, and stimulating a vibrant and dynamic scientific network to
 promote an effective exchange of knowledge between researchers in 
 Mathematics and Computer Science across Europe (and beyond), and to
 effectively disseminate the fruits of this exchange through scientific
-publications, online databases, scientific vulgarisation, and Training
+publications, online databases, scientific popularisation, and Training
 Schools for students and early-career researchers.
 
-The collaboration and interaction of the Action is real, and is modelled
+The collaboration and interaction proposed by this Action is modelled
 on the success story of Elliptic Curve Cryptography, which has acted as
 a dynamic meeting-place for Number Theorists and Cryptographers since
 its invention in 1985.  Now, as Elliptic Curve Cryptography reaches full
@@ -49,8 +49,8 @@ through world-class research in Elliptic Curve Cryptography over the
 past two decades.  The network created by the Action will therefore not
 only reinforce and deepen the existing research strengths of its
 proposers, but also facilitate a real and effective cross-pollination,
-with a lasting impact on European research in Mathematics and Computer
-Science and Engineering.
+with a lasting impact on European research in Mathematics, Computer
+Science, and Engineering.
 
 European industrial research and innovation capacities will be further
 strengthened by the Action's contribution to European and international
@@ -62,15 +62,16 @@ post-quantum cryptography and information security.
 MAGIC is perfectly aligned with the pillars of COST Policy.  The Action
 is committed to geographical diversity, with a balanced team of partners
 from Eastern, Western, Northern, and Southern Europe, as well as the
-United States.  Most of the research groups involved in any one of the
+United States and Australia.  
+Most of the research groups involved in any one of the
 partner countries tend to concentrate their expertise in either Number
 Theory or in Cryptography, so the interdisciplinary interaction for
 which the Action is designed is necessarily cross-border, and would be
 difficult to realise without the support of European Frameworks.  Half
-of the participating countries are ITCs.  The development of MAGIC has
+of the participating European countries are ITCs.  The development of MAGIC has
 been marked by a need to reduce the isolation of specialists in
-countries across Europe, especially in the ITCs, by connecting them and
-integrating them with larger and thriving research networks in a few of
+countries across Europe, especially in the ITCs, by connecting and
+integrating these specialists with larger and thriving research networks in a few of
 the partner countries.  In this way, the Action will contribute to the
 COST Framework's goal of counterbalancing inequality in access to
 knowledge, funding, infrastructure, and resources.

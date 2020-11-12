@@ -8,10 +8,9 @@ experts in number theory, who have invaluable knowledge on isogenies and
 are interested in cryptography as an application, with experts in 
 cryptography, who need crucial theoretical input from number theory to
 design and analyse efficient and secure isogeny-based cryptosystems.
-
-[Luca: this number theory -> cryptography pipeline sounds too
-one-sided. Can't we make it sound like number theory gets something
-from it?]
+This exchange is far from one-way traffic: hard problems motivated by
+and crystallised in cryptography have long acted as a stimulant for
+research in number theory.
 
 This combination is particularly timely, given the current global
 interest in post-quantum cryptography, which responds to the need for

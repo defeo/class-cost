@@ -10,9 +10,12 @@ cryptography, who need crucial theoretical input from number theory to
 design and analyse efficient and secure isogeny-based cryptosystems.
 This exchange is far from one-way traffic: hard problems motivated by
 and crystallised in cryptography have long acted as a stimulant for
-research in number theory.
+research in number theory.  Beyond the potential gains for each side,
+the bridge formed by isogeny-based cryptography is a worthy research
+target in itself.
 
-This combination is particularly timely, given the current global
+This combination targeting isogeny-based cryptography
+is particularly timely, given the current global
 interest in post-quantum cryptography, which responds to the need for
 private and authenticated communication in an age of quantum supremacy.
 Isogeny-based cryptography is the youngest branch of post-quantum

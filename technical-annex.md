@@ -514,16 +514,16 @@ isogeny-based cryptography accessible to as wide an audience as possible. The bl
 ### 4.1	COHERENCE AND EFFECTIVENESS OF THE WORK PLAN
 #### 4.1.1	DESCRIPTION OF WORKING GROUPS, TASKS AND ACTIVITIES
 
-Due to its multidisciplinary nature, the Action brings together several communities with different expertise and vocabularies. The work plan will be structured around 4 Working Groups (WG), roughly corresponding to each of the communities, as described below.
+Due to its multidisciplinary nature, the Action brings together several communities with different expertise and vocabularies. The work plan will be structured around four Working Groups (WG), roughly corresponding to each of the communities, as described below.
 
 **WG1 - Number theoretic foundations** This WG will be concerned with the mathematical foundations of isogeny-based cryptography, rooted in number theory and algebraic geometry. It will study the objects upon which cryptographic protocols are built, their generalisations and their algorithmic properties. In particular, it will research efficient algorithms for working with isogenies of elliptic curves and higher dimensional abelian varieties, the structure of isogeny graphs, and the algorithmic relationships with their endomorphism rings. Its outputs will inform the other working groups on the best algorithmic ways to reach their goals, and on the potential risks to security. From the other WG, it will draw inspiration for useful properties to look for in the algebraic objects.
 
 **WG2 - Cryptanalysis** This WG will focus on algorithms to break the concrete schemes that have been proposed. It shares with WG1 an interest for algorithms to navigate isogeny graphs, however it approaches them from a cryptographic perspective, focusing on the security definitions and the minor details that make each system unique. Unlike other WGs, it will have a strong focus on quantum algorithms. Security reductions will also be an object of study of this WG, in collaboration with WG3. Its outputs will be used to set parameters for different security levels, in coordination with WG4.
 
-**WG3 - Primitives, Protocols and Assumptions** This WG will research new primitives and protocols that can be built from isogenies. It will monitor the emergence of new primitives that have a potential to be built from isogenies, and inform other WGs in the hope of coming with a working proposal. It will construct new protocols (mostly advanced ones that go beyond encryption and signatures) using the available primitives, and seek to make them as efficient as possible in collaboration with WG4. Inspired by protocols in other subfields (e.g., lattice based cryptography), it will propose new isogeny-based assumptions upon which new protocols can be constructed, and assess their security in collaboration with WG1 and WG2.
+**WG3 - Primitives, Protocols and Assumptions** This WG will research new primitives and protocols that can be built from isogenies. It will monitor the emergence of new primitives that have a potential to be built from isogenies, and inform other WGs in the hope of developing working isogeny-based proposals. It will construct new protocols (mostly advanced ones that go beyond encryption and signatures) using the available primitives, and seek to make them as efficient as possible in collaboration with WG4. Inspired by protocols in other subfields (e.g., lattice-based cryptography), it will propose new isogeny-based assumptions upon which new protocols can be constructed, and assess their security in collaboration with WG1 and WG2.
 
 **WG4 - Hardware & Software implementations** This WG will produce high efficiency secure implementations of isogeny algorithms and protocols, both in hardware and in software. It will discuss with WG2 to determine the most efficient parameters for a given security level. It will interact with WG1 to seek new theoretically efficient algorithms for isogeny computations, that translate into fast software and hardware. The security of the implementations will be considered on both a software level, informed partly by WG2, and on a hardware level, taking for example side-channel and fault attacks into account.
-Additionally, theoretical hardware attacks and the theoretical security levels as computed by work in WG2 will be verified and refined by implementation and practical experiments with the attacks.
+Additionally, theoretical hardware attacks and the theoretical security levels as computed by work in WG2 will be verified and refined by implementation and practical experiments.
 
 [We need to say something about transversality, risk management, and how we make the WG talk to each other]
 
@@ -543,15 +543,15 @@ duration of the Action, not tied to a specific event.
 
 **D3, Months 6-48. Website.** Create a website as a coherent reference on isogenies for researchers and a basis for training students and researchers new to the field. It will be first put together after an introductory workshop, and then maintained online and open source in order to allow for changes and additions. This resource will be informed by all four work packages in an ongoing manner.
 
-**D4.1, Month 9. Security whitepaper on isogeny-based protocols.** This deliverable will summarise the state of knowledge on the security of isogeny-based protocols at the start of the Action and will serve as a starting point of WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
+**D4.1, Month 9. Security whitepaper on isogeny-based protocols.** This deliverable will summarise the state of knowledge on the security of isogeny-based protocols at the start of the Action, and will serve as a starting point for WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
 
-**D4.2, Month 45. Updated security whitepaper on isogeny-based protocols.** This deliverable will update the security whitepaper produced in D3.1 at the end of the Action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems and on new or clarified security assumptions that appear during the course of the Action as part of WG2 and WG3 respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
+**D4.2, Month 45. Updated security whitepaper on isogeny-based protocols.** This deliverable will update the security whitepaper produced in D3.1 at the end of the Action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems, and on new or clarified security assumptions that appear during the course of the Action as part of WG2 and WG3, respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
 
 **D5, Month 24. Isogeny Formulas Database.** Create an online database with the formulas needed for isogeny computations and isogeny-based cryptography. These include classic formulas, such as Vélu’s, as well as more recent work, such as VeluSQRT, radical isogenies, and the new input from WP4. The final result will be a useful tool for both implementers and protocol designers: a comprehensive and easy-to-access overview of the literature with regards to isogeny computation formulas.
 
 **D6, Month 42. Book on isogeny-based cryptography.** This textbook will provide a comprehensive resource for the background knowledge required to work in isogeny-based cryptography, and will be informed by all work packages. The book will be published formally with an academic publisher in the last year of the Action.
 
-**D7, Month 48. Final press release.** This press release will give an overview what the Action achieved during the course of the Action, focusing on impact. The press release will also point readers towards the official website and other resources created during the course of the Action where they can learn more about our research.
+**D7, Month 48. Final press release.** This press release will give an overview of the achievements of the Action, focusing on impact. The press release will also point readers towards the official website and other resources created during the course of the Action where they can learn more about our research.
 
 #### 4.1.3	Risk analysis and Contingency Plans
 
@@ -561,10 +561,10 @@ adoption of isogeny-based technologies in industry.  Several
 scientific and technological risks may however adversely impact this
 goal.
 
-Isogeny based cryptography holds some key advantages over competing
+Isogeny-based cryptography holds some key advantages over competing
 technologies:
 
-- Small key, ciphertext and signature sizes, compared to other
+- Small key, ciphertext, and signature sizes compared to other
   post-quantum candidates.
 - Efficient instantiations of rare or unique post-quantum primitives,
   such as non-interactive key exchange.
@@ -577,7 +577,7 @@ better features may be discovered, or newly discovered attacks may
 require to increase parameters of some isogeny-based schemes, reducing
 efficiency.
 
-To mitigate these risks the Action will work on the widest possible
+To mitigate these risks, the Action will work on the widest possible
 portfolio of isogeny-based schemes, thus maximising the probability
 that at least some isogeny-based schemes will retain their advantages
 over competitors.
@@ -621,7 +621,7 @@ additional corrective measures in order to boost engagement.
 **External risks.** The success of isogeny-based cryptography is
 somewhat tied to the success of SIKE in the NIST competition. If SIKE
 were not to be standardised, the popularity of isogeny-based
-cryptography is likely to take a hit, driving adoption down.
+cryptography would likely take a hit, driving adoption down.
 
 The mitigation is again to diversify the portfolio, ensuring that,
 even if SIKE fails to convince stakeholders, other isogeny-based
@@ -635,7 +635,7 @@ recommendations addressed to all Action Members for organising virtual
 events, thus helping maintain a sustained level of collaboration,
 despite continuing travel difficulties.
 
-Shall the global situation revert back to normal by the start of or
+Should the global situation revert back to normal by the start of or
 during the Action, such recommendations shall still serve as useful
 guidelines to help increase participation through hybrid events which
 smoothly support remote participation.

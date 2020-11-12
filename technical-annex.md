@@ -174,7 +174,7 @@ Through this Action, by the careful creation of databases and coordination of wo
 
 The Action approach to the challenge from the perspective of the network has two main foci: introducing young researchers to the main open problems while equipping them with the tools they will need, and bringing together researchers from different fields to learn from each others' different perspectives. 
 
-Concretely, for the first aim a week-long school will be held near the beginning of the Action, 
+Concretely, for the first aim a week-long Training School will be held near the beginning of the Action, 
 and a book with chapters contributed by the lecturers of this school will be created. The book will be maintained on an open source online platform with possibility for the future addition (or removal) of chapters until the end of the Action, 
 due to the fact that the topic is still changing rapidly, and will be formally published during the last year of the Action.
 
@@ -316,7 +316,7 @@ other European and Near Neighbouring countries, with limited access to
 networks.
 
 The Action brings together researchers from all these countries,
-securing the best experts in the field. The research schools and
+securing the best experts in the field. The Training Schools and
 workshops will let many talented Early Career Researchers meet well
 established researchers in the field, fostering new collaborations,
 and accelerating the development of isogeny based cryptography by an
@@ -487,7 +487,7 @@ Throughout the duration of the Action, the official website will serve as a one 
 
 The website will be maintained for at least 4 years after the end of the Action. The aim is for it to become a standard source of information for the field, and be kept up to date in the long term.
 
-In the last year of the Action, selected lectures from the schools, plus invited essays if necessary,
+In the last year of the Action, selected lectures from the Training Schools, plus invited essays if necessary,
 will be considered to become chapters of a book edited under the
 supervision of the Action and published with an academic publisher.
 
@@ -497,7 +497,7 @@ The Action will target strategic venues for its communications: major conference
 
 Software produced by the Action will mostly consist of research software for demonstrative purposes, or contributions to open source computer algebra systems (e.g., PARI/GP, Sagemath, Oscar, ...). In both cases, the code will be published under standard open source licenses, such as the GPL. Occasionally, some of these software may be integrated in the products of the industrial partners of the Action. As a general rule, the open source license will still apply to the software; most companies in cryptography regularly work with open source software. If the open source license does cause a problem with an industrial partner however, the authors of the code may decide to grant an additional closed source license to the industrial partner.
 
-Besides advancing the state-of-the-art, the Action also aims at making isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at schools.
+Besides advancing the state-of-the-art, the Action also aims at making isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at Training Schools.
 
 
 ## 4	IMPLEMENTATION
@@ -519,21 +519,116 @@ Additionally, theoretical hardware attacks and the theoretical security levels a
 
 #### 4.1.2	DESCRIPTION OF DELIVERABLES AND TIMEFRAME
 
-**D1, Month 3** Write a press release for the start of the Action. This press release will give an overview of the Action, focusing on the goals and impact, and show readers where to find more about the Action.
+**D1, Month 3. Initial press release.** This press release will give an overview of the Action, focusing on the goals and impact, and show readers where to find more about the Action.
 
-**D2, Month 6** Create a website as a coherent reference on isogenies for researchers and a basis for training students and researchers new to the field. It will be first put together after an introductory workshop, and then maintained online and open source in order to allow for changes and additions. This resource will be informed by all four work packages in an ongoing manner.
+**D2, Month 3. Virtual events tools and guidelines.**  In order to
+help organise virtual and hybrid events, to maximise participation of
+individuals with travel or budget constraints, and to foster
+continuous engagement of participants before and after the events,
+this Deliverable will propose a series of guidelines and recommended
+tools, to the attention of Action Members.  Some of the recommended
+tools (e.g., chat servers, video conferencing rooms, virtual research
+environments) may be adopted as global solutions for the whole
+duration of the Action, not tied to a specific event.
 
-**D3.1, Month 9** Security whitepaper on isogeny-based protocols. This deliverable will summarise the state of knowledge on the security of isogeny-based protocols at the start of the Action and will serve as a starting point of WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
+**D3, Months 6-48. Website.** Create a website as a coherent reference on isogenies for researchers and a basis for training students and researchers new to the field. It will be first put together after an introductory workshop, and then maintained online and open source in order to allow for changes and additions. This resource will be informed by all four work packages in an ongoing manner.
 
-**D3.2, Month 45** Updated security whitepaper on isogeny-based protocols. This deliverable will update the security whitepaper produced in D3.1 at the end of the Action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems and on new or clarified security assumptions that appear during the course of the Action as part of WG2 and WG3 respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
+**D4.1, Month 9. Security whitepaper on isogeny-based protocols.** This deliverable will summarise the state of knowledge on the security of isogeny-based protocols at the start of the Action and will serve as a starting point of WG2 and parts of WG3. It will start with a presentation of all cryptographic assumptions proposed in the area and how they relate to each other. Then it will describe existing classical and quantum algorithms to solve these problems and the concrete impact of these algorithms on protocols. It will conclude with recommendations for practitioners (i.e. how to choose parameters in an implementation), protocol designers (which assumptions to use) and cryptanalysts (interesting open problems to address).
 
-**D4, Month 24** Create an online database with the formulas needed for isogeny computations and isogeny-based cryptography. These include classic formulas, such as Vélu’s, as well as more recent work, such as VeluSQRT, radical isogenies, and the new input from WP4. The final result will be a useful tool for both implementers and protocol designers: a comprehensive and easy-to-access overview of the literature with regards to isogeny computation formulas.
+**D4.2, Month 45. Updated security whitepaper on isogeny-based protocols.** This deliverable will update the security whitepaper produced in D3.1 at the end of the Action, informed especially by the research of WG2 and WG3. It will focus on new or improved attacks on isogeny-based cryptosystems and on new or clarified security assumptions that appear during the course of the Action as part of WG2 and WG3 respectively. It will again conclude with recommendations for practitioners, protocol designers, and cryptanalysts.
 
-**D5, Month 42** Publish a book on isogeny-based cryptography. This textbook will provide a comprehensive resource for the background knowledge required to work in isogeny-based cryptography, and will be informed by all work packages. The book will be published formally with an academic publisher in the last year of the Action.
+**D5, Month 24. Isogeny Formulas Database.** Create an online database with the formulas needed for isogeny computations and isogeny-based cryptography. These include classic formulas, such as Vélu’s, as well as more recent work, such as VeluSQRT, radical isogenies, and the new input from WP4. The final result will be a useful tool for both implementers and protocol designers: a comprehensive and easy-to-access overview of the literature with regards to isogeny computation formulas.
 
-**D6, Month 48** A press release for the end of the project. This press release will give an overview what the Action achieved during the course of the Action, focusing on impact. The press release will also point readers towards the official website and other resources created during the course of the Action where they can learn more about our research.
+**D6, Month 42. Book on isogeny-based cryptography.** This textbook will provide a comprehensive resource for the background knowledge required to work in isogeny-based cryptography, and will be informed by all work packages. The book will be published formally with an academic publisher in the last year of the Action.
+
+**D7, Month 48. Final press release.** This press release will give an overview what the Action achieved during the course of the Action, focusing on impact. The press release will also point readers towards the official website and other resources created during the course of the Action where they can learn more about our research.
 
 #### 4.1.3	Risk analysis and Contingency Plans
+
+**Scientific and technological risks.** Through its training and
+dissemination activities, the Action aims to facilitate and increase
+adoption of isogeny based technologies in industry.  Several
+scientific and technological risks may however adversely impact this
+goal.
+
+Isogeny based cryptography holds some key advantages over competing
+technologies:
+
+- Small key, ciphertext and signature sizes, compared to other
+  post-quantum candidates.
+- Efficient instantiations of rare or unique post-quantum primitives,
+  such as non-interactive key exchange.
+- Instantiations of rare or unique time delay (non-post-quantum)
+  primitives such as Verifiable Delay Functions or Delay Encryption.
+
+Thanks to scientific and technological developments, some of these
+advantages may dwindle or vanish: non-isogeny-based alternatives with
+better features may be discovered, or newly discovered attacks may
+require to increase parameters of some isogeny-based schemes, reducing
+efficiency.
+
+To mitigate these risks the Action will work on the widest possible
+portfolio of isogeny based schemes, thus maximising the probability
+that at least some isogeny based schemes will retain their advantages
+over competitors.
+
+Of course, diversification will not protect against *black swan*
+events such as the discovery of a devastating attack, invalidating all
+isogeny based cryptography at once. However, thanks to the
+inclusiveness of the network, such a devastating discovery is more
+likely to come from work done within the Action than outside of
+it. Thus the Action will have entirely fulfilled its mission of
+assessing the security of isogeny based cryptography, although with a
+somewhat disappointing conclusion.
+
+The most likely scenario is somewhere in the middle: the Action will
+discover some attacks, impacting some isogeny based schemes to some
+degree, will suggest appropriate corrective measures to keep the
+schemes safe, and foster a more secure adoption of isogeny based
+cryptography by industry.
+
+**Internal risks.** Given the size of the network, suboptimal
+communication among the Action Members and continued isolation of some
+partners must be proactively addressed.
+
+In the first months of the Action, the Management Committee will
+mandate a task force to set up and monitor the internal and external
+communication channels of the Action: mailing lists, social media
+accounts, websites, chat servers, etc.
+
+Throughout the duration of the action, the involvement of the more
+isolated Members, especially Inclusiveness Target Countries, will be
+encouraged by entrusting them with the responsibility of organising
+events locally. Short Term Scientific Missions will also be used to
+reduce the isolation of these partners.
+
+Participation statistics will be collected during Training Schools and
+workshops, and regularly analysed by the Action Management
+Committee. Shall the statistics indicate a reduced participation by
+some Action Members, the Management Committee may decide to take
+additional corrective measures in order to boost engagement.
+
+**External risks.** The success of isogeny based cryptography is
+somewhat tied to the success of SIKE in the NIST competition. If SIKE
+were not to be standardised, the popularity of isogeny based
+cryptography is likely to take a hit, driving adoption down.
+
+The mitigation is again to diversify the portfolio, ensuring that,
+even if SIKE fails to convince stakeholders, other isogeny based
+schemes may still succeed.
+
+**Travel restrictions.** Given the current situation, the
+risk of persistent global difficulties for travelling and organising
+in-person events cannot be underestimated. The Action Management
+Committee will act rapidly by publishing Deliverable 2, a series of
+recommendations addressed to all Action Members for organising virtual
+events, thus helping maintain a sustained level of collaboration,
+despite continuing travel difficulties.
+
+Shall the global situation revert back to normal by the start of or
+during the Action, such recommendations shall still serve as useful
+guidelines to help increase participation through hybrid events which
+smoothly support remote participation.
 
 
 

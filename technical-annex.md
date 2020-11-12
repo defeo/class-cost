@@ -7,10 +7,11 @@ Elliptic curves have been central to the development of number theory throughout
 and of public-key cryptography in the 21st century.
 Their interest and utility is beyond question.
 Contemporary **Elliptic Curve Cryptography (ECC)**,
-which is now ubiquitous in digital security (from the internet to smart cards),
-represents a brilliant example
+which is now ubiquitous in digital security---from
+the internet to smart cards---represents a brilliant example
 of effective exchange and collaboration
-between researchers from pure mathematics (especially number theory and algebraic geometry),
+between researchers from pure mathematics
+(especially number theory and algebraic geometry),
 computer science, and engineering.
 Now, the new emergence of **isogeny-based cryptography**
 requires us to strengthen, broaden, renew, and re-focus this exchange:
@@ -154,9 +155,10 @@ the Action requires
 1. A determined and unified effort 
    to demystify isogenies for working cryptographers
    and cryptographic engineers,
-   rendering the field accessible to practitioners.
+   rendering the field accessible to practitioners and industry.
 
-To do this, The action will put together a European research network of number theorists, cryptographers, and specialists in quantum algorithms.  The network will be built upon a framework for fundamental research and effective communication, both within the network and with the broader international community.
+To do this, the Action will put together a European research network of number theorists, cryptographers, and specialists in quantum algorithms.
+This network will be built upon a framework for fundamental research and effective communication, both within the Action and with the broader international community.
 
 ### 1.2	Progress beyond the state-of-the-art 
 
@@ -223,7 +225,7 @@ international community.
 
 ### 2.1	Added value of networking in S&T Excellence
 
-Isogeny based cryptography is a relatively young field, which suffers
+Isogeny-based cryptography is a relatively young field, which suffers
 from geographical dispersion and a small community size. On the other
 hand it has grown to a rich enough field that newcomers and the
 general public often lack accessible, complete and reliable
@@ -231,9 +233,9 @@ information sources. On top of that, isogenies are often regarded as
 an exceptionally technical topic within the field of cryptography.
 
 By developing and structuring an international interdisciplinar
-network of researchers interested in the topic, providing them with
+network of researchers interested in the topic, thus providing them with
 well organised technical knowledge, powerful tools, and collaboration
-venues, the Action will accelerate the development of isogeny based
+venues, the Action will accelerate the development of isogeny-based
 cryptography, improve understanding, lower entry barriers, and
 facilitate industry adoption.
 
@@ -242,13 +244,13 @@ facilitate industry adoption.
 The proposers are not aware of any international effort primarily
 targeting isogeny-based cryptography, present or past.
 
-The yearly Elliptic Curve Cryptography (ECC) workshop
+The annual Elliptic Curve Cryptography (ECC) workshop
 (https://eccworkshop.org/) has often been the venue where researchers
-interested in isogeny based cryptography meet and start
+interested in isogeny-based cryptography meet and start
 collaborations, and has also served as platform to form Early Career
-Investigators through the associated research school.  However the
-share of isogeny based cryptography within the event stays somewhat
-limited, and can hardly reach all the public targeted by the Action.
+Investigators through associated research summer schools.  However, the
+share of isogeny-based cryptography within the event remains somewhat
+limited, and does not reach all of the public targeted by the Action.
 
 Past European efforts related to the Action are:
 
@@ -271,19 +273,19 @@ Currently running European efforts related to the Action are:
 
 - ERC Grant 669891, Almacrypt (http://www.almacrypt.eu/), which
   mainly focuses on elliptic curve and integer factoring
-  cryptanalyses, but has also occasionally touched upon isogeny based
+  cryptanalyses, but has also occasionally touched upon isogeny-based
   cryptography.
 - ERC Grant 805031, EPOQUE, focusing on
   secure implementation of NIST post-quantum candidates.
 
-The level of support these past and present project provide to isogeny
-based cryptography is very limited. By looking more broadly at public
-investments on research in cryptography, it is apparent that
-isogeny-based cryptography is underrepresented.  By bringing to life a
-coordinated research effort on isogeny based cryptography, the Action
+The level of support these past and present project provide to
+isogeny-based cryptography is very limited. Looking more broadly at public
+investment in cryptographic research, it is apparent that
+isogeny-based cryptography is under-represented.  By bringing to life a
+coordinated research effort on isogeny-based cryptography, the Action
 will consolidate Europe's lead on the topic, will bring it to a level
 of maturity otherwise hardly achievable, and will bootstrap a virtuous
-cycle leading to an increased representation of isogeny based
+cycle leading to an increased representation of isogeny-based
 cryptography in European and international research programmes.
 
 
@@ -291,25 +293,27 @@ cryptography in European and international research programmes.
 
 Owing to its small community size, geographical dispersion, and high
 degree of interdisciplinarity, it has repeatedly been observed that
-the most impactful work in isogeny based cryptography is often the
-result of large international collaborations, gathering expertise from
+the most impactful work in isogeny-based cryptography is often the
+result of large international collaborations gathering expertise from
 more than one field.
 
-Research on isogeny based cryptography already happens through an
-international network, supported by various personal grants on a case
-by case basis. However this mode of functioning is exclusive, limiting
+Research on isogeny-based cryptography already happens through an
+international network, supported by various personal grants on a
+case-by-case basis.
+However this mode of functioning is exclusive, limiting
 participation to a small circle of insiders, holding innovation back,
 and potentially leading to stagnation in the field.
 
 By facilitating exchanges, fostering new collaborations, lowering
-entry barriers, ensuring diversity, the Action will maximise impact of
-isogeny based cryptography, shaping the technological landscape in the
+entry barriers, and ensuring diversity, the Action will maximise the
+impact of
+isogeny-based cryptography, shaping the technological landscape in the
 near and long term.
 
 
 #### 2.2.1	SECURING THE CRITICAL MASS AND EXPERTISE 
 
-Europe already is a leader in isogeny based cryptography, with well
+Europe already is a leader in isogeny-based cryptography, with well
 established networks in Belgium, France, Germany, the Netherlands,
 Switzerland, and the UK. However, several isolated researchers work in
 other European and Near Neighbouring countries, with limited access to
@@ -319,7 +323,7 @@ The Action brings together researchers from all these countries,
 securing the best experts in the field. The Training Schools and
 workshops will let many talented Early Career Researchers meet well
 established researchers in the field, fostering new collaborations,
-and accelerating the development of isogeny based cryptography by an
+and accelerating the development of isogeny-based cryptography by an
 order of magnitude.
 
 The Action will pay a particular attention to helping underrepresented
@@ -344,7 +348,7 @@ participate in standardisation panels when relevant.
 Building on its already established ties with industry partners,
 the Action will reach to a broader audience in tech companies using a
 variety of dissemination channels: talks, technical blog posts,
-audio-visual media, open source code, etc. Co-locating workshops with
+audio-visual media, open-source code, etc. Co-locating workshops with
 major conferences that attract both an academic and an industrial
 audience will further increase impact for these stakeholders.
 
@@ -356,8 +360,8 @@ Action, such as books and audio-visual content.
 
 #### 2.2.3	MUTUAL BENEFITS OF THE INVOLVEMENT OF SECONDARY PROPOSERS FROM NEAR NEIGHBOUR OR INTERNATIONAL PARTNER COUNTRIES OR INTERNATIONAL ORGANISATIONS
 
-Beyond Europe, the countries with the strongest networks in isogeny
-based cryptography are Canada, and the United States. The involvement of
+Beyond Europe, the countries with the strongest networks in isogeny-based
+cryptography are Canada and the United States. The involvement of
 these partners as secondary proposers is thus a natural step towards
 building a truly inclusive research network. The partnership will make
 it easier to disseminate the outputs of the Action to these
@@ -385,7 +389,7 @@ fundamental tools of isogeny-based cryptography.
 #### 3.1.1	SCIENTIFIC, TECHNOLOGICAL, AND/OR SOCIOECONOMIC IMPACTS (INCLUDING POTENTIAL INNOVATIONS AND/OR BREAKTHROUGHS)
 
 NIST's eventual standardisation of SIKE, possibly at some point within
-the time frame of the Action, or shortly thereafter, is the first
+the time frame of the Action (or shortly thereafter), is the first
 clear impact factor tied to the Action. Through its published
 analyses, the Action will aim at influencing NIST's decision
 process. Two outcomes are possible: either the analyses shed doubt on
@@ -404,13 +408,13 @@ Within the scope of post-quantum cryptography, the Action will
 explore many significant innovations, such as, for
 example, efficient isogeny-based signature schemes, new advanced
 primitives not currently known to be constructible from isogenies,
-better provable security for already known primitives, and more
-in-depth analyses of available attacks. Although on a longer
+better provable security for already known primitives, and deeper
+analyses of available attacks. While they are on a longer
 time-scale than SIKE, these innovations will directly benefit
-stakeholders operating in the post-quantum space such as SMEs and
+stakeholders operating in the post-quantum space, such as SMEs and
 large companies offering encrypted products with long-term security.
 
-Beyond post-quantum cryptography, the recently discovered "time delay
+Beyond post-quantum cryptography, recently discovered "time delay
 protocols" based on isogenies offer another opportunity for high
 impact, providing cost-effective solutions to difficult problems in
 distributed computing such as generation of fair randomness or
@@ -426,7 +430,7 @@ accelerating progress in isogeny-based cryptography. The various
 actions described in the implementation section (workshops, schools,
 books) will contribute to form a new generation of experts with a deep
 understanding of isogeny-based cryptography, whose impact in the
-broader field of cryptography ---both theoretical and applied--- will be felt
+broader field of cryptography---both theoretical and applied---will be felt
 well after the Action is over.
 
 ### 3.2	MEASURES TO MAXIMISE IMPACT
@@ -434,16 +438,17 @@ well after the Action is over.
 #### 3.2.1	KNOWLEDGE CREATION, TRANSFER OF KNOWLEDGE AND CAREER DEVELOPMENT
 
 Owing to its interdisciplinary nature, and to the wide range of skills
-involved, the Action will alternate large meetings aimed at all
-partners and smaller focused meetings gathering participants from one
+involved, the Action will alternate between large meetings aimed at all
+partners, and smaller focused meetings gathering participants from one
 or two Working Groups.
 
 Concretely, the Action will be structured around yearly meetings, in
 rotating locations, aimed at all participants and open to outside
 researchers. The meeting will have both an educational component, in
-the form of lectures, and a research one, in the form of contributed
+the form of lectures,
+and a research component, in the form of contributed
 talks, posters, and work sessions. To encourage outside participation,
-the Action will seek to co-locate the meetings with related
+the Action will seek to co-locate these meetings with related
 conferences, e.g., Eurocrypt or ANTS. Lecturers will be encouraged to
 write lecture notes, and the notes will be collected on the website of
 the Action. Whenever
@@ -461,10 +466,10 @@ researchers. The format of the workshop will be decided by
 the organisers, and will have to be validated by the Management
 Committee.
 
-Both for meetings and workshops, the
+Both for meetings and Workshops, the
 Action will strive to involve young researchers in their
 organisation, in particular from Inclusiveness Target Countries, to
-encourage responsibility taking and network building.
+encourage responsibility-taking and network-building.
 
 A limited amount of Short-Term Scientific Missions and Conference
 Grants will be reserved to encourage PhD students to visit other
@@ -473,19 +478,23 @@ institutions and develop scientific collaborations.
 
 #### 3.2.2	PLAN FOR DISSEMINATION AND/OR EXPLOITATION AND DIALOGUE WITH THE GENERAL PUBLIC OR POLICY
 
-Throughout the duration of the Action, the official website will serve as a one stop shop for all sorts of resources related to the Action. In particular, it will contain:
+Throughout the duration of the Action, the official website will serve
+as a one-stop shop for all sorts of resources related to the Action.
+In particular, it will contain:
 
-- News feeds, agenda, links to mailing lists and social media accounts providing information on the Action's activities.
+- News feeds, agendas, and links to mailing lists and social media accounts providing information on the Action's activities.
 
 - A regularly updated blog (1 post per month on average at least) discussing scientific topics related to the Action using an informal style.
 
-- A database of all scientific publications in the field of isogeny based cryptography, both by Action members and non-members, searchable and downloadable in machine readable formats.
+- A database of all scientific publications in the field of isogeny-based cryptography, both by Action members and non-members, searchable and downloadable in machine readable formats.
 
 - Lecture material from the Action's meetings and workshops.
 
 - Information on the management of the Action.
 
-The website will be maintained for at least 4 years after the end of the Action. The aim is for it to become a standard source of information for the field, and be kept up to date in the long term.
+The website will be maintained for at least 4 years after the end of
+the Action. The aim is for this website to become a standard source of
+information for the field, and be kept up-to-date in the long term.
 
 In the last year of the Action, selected lectures from the Training Schools, plus invited essays if necessary,
 will be considered to become chapters of a book edited under the
@@ -497,7 +506,8 @@ The Action will target strategic venues for its communications: major conference
 
 Software produced by the Action will mostly consist of research software for demonstrative purposes, or contributions to open source computer algebra systems (e.g., PARI/GP, Sagemath, Oscar, ...). In both cases, the code will be published under standard open source licenses, such as the GPL. Occasionally, some of these software may be integrated in the products of the industrial partners of the Action. As a general rule, the open source license will still apply to the software; most companies in cryptography regularly work with open source software. If the open source license does cause a problem with an industrial partner however, the authors of the code may decide to grant an additional closed source license to the industrial partner.
 
-Besides advancing the state-of-the-art, the Action also aims at making isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeted at the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at Training Schools.
+Besides advancing the state-of-the-art, the Action also aims to make
+isogeny-based cryptography accessible to as wide an audience as possible. The blog will be the primary communication medium targeting the general public, and shall thus be rich in expository informal articles and links to further reading. A series of short introductory videos targeting Masters and PhD students will be recorded to complement the lectures given at Training Schools.
 
 
 ## 4	IMPLEMENTATION
@@ -547,7 +557,7 @@ duration of the Action, not tied to a specific event.
 
 **Scientific and technological risks.** Through its training and
 dissemination activities, the Action aims to facilitate and increase
-adoption of isogeny based technologies in industry.  Several
+adoption of isogeny-based technologies in industry.  Several
 scientific and technological risks may however adversely impact this
 goal.
 
@@ -568,23 +578,23 @@ require to increase parameters of some isogeny-based schemes, reducing
 efficiency.
 
 To mitigate these risks the Action will work on the widest possible
-portfolio of isogeny based schemes, thus maximising the probability
-that at least some isogeny based schemes will retain their advantages
+portfolio of isogeny-based schemes, thus maximising the probability
+that at least some isogeny-based schemes will retain their advantages
 over competitors.
 
 Of course, diversification will not protect against *black swan*
 events such as the discovery of a devastating attack, invalidating all
-isogeny based cryptography at once. However, thanks to the
+isogeny-based cryptography at once. However, thanks to the
 inclusiveness of the network, such a devastating discovery is more
 likely to come from work done within the Action than outside of
 it. Thus the Action will have entirely fulfilled its mission of
-assessing the security of isogeny based cryptography, although with a
+assessing the security of isogeny-based cryptography, although with a
 somewhat disappointing conclusion.
 
 The most likely scenario is somewhere in the middle: the Action will
-discover some attacks, impacting some isogeny based schemes to some
+discover some attacks, impacting some isogeny-based schemes to some
 degree, will suggest appropriate corrective measures to keep the
-schemes safe, and foster a more secure adoption of isogeny based
+schemes safe, and foster a more secure adoption of isogeny-based
 cryptography by industry.
 
 **Internal risks.** Given the size of the network, suboptimal
@@ -608,13 +618,13 @@ Committee. Shall the statistics indicate a reduced participation by
 some Action Members, the Management Committee may decide to take
 additional corrective measures in order to boost engagement.
 
-**External risks.** The success of isogeny based cryptography is
+**External risks.** The success of isogeny-based cryptography is
 somewhat tied to the success of SIKE in the NIST competition. If SIKE
-were not to be standardised, the popularity of isogeny based
+were not to be standardised, the popularity of isogeny-based
 cryptography is likely to take a hit, driving adoption down.
 
 The mitigation is again to diversify the portfolio, ensuring that,
-even if SIKE fails to convince stakeholders, other isogeny based
+even if SIKE fails to convince stakeholders, other isogeny-based
 schemes may still succeed.
 
 **Travel restrictions.** Given the current situation, the

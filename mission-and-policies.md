@@ -8,6 +8,11 @@ experts in number theory, who have invaluable knowledge on isogenies and
 are interested in cryptography as an application, with experts in 
 cryptography, who need crucial theoretical input from number theory to
 design and analyse efficient and secure isogeny-based cryptosystems.
+
+[Luca: this number theory -> cryptography pipeline sounds too
+one-sided. Can't we make it sound like number theory gets something
+from it?]
+
 This combination is particularly timely, given the current global
 interest in post-quantum cryptography, which responds to the need for
 private and authenticated communication in an age of quantum supremacy.
@@ -27,7 +32,7 @@ Schools for students and early-career researchers.
 The collaboration and interaction of the Action is real, and is modelled
 on the success story of Elliptic Curve Cryptography, which has acted as
 a dynamic meeting-place for Number Theorists and Cryptographers since
-its invention in 1985.  Now, as Elliptic Curve Cryptography reache full
+its invention in 1985.  Now, as Elliptic Curve Cryptography reaches full
 technological maturity, and as the international community faces a need
 for post-quantum security that conventional Elliptic Curve Cryptography
 simply cannot meet, it is time to re-form, renew, and reinvigorate this

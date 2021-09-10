@@ -1,0 +1,39 @@
+Suggested improvements from referees:
+
+1. details on motivation for isogeny-based cryptosystems
+2. details on existing challenges in adoption of isogeny-based crypto
+3. explain main recent advances and challenges related to implementation
+4. clearer and more detail on other *new* possible isogeny-based cryptosystems will be investigated
+5. clearer and more detail on techniques that will be used to develop new cryptosystems
+6. clearer and more detail on plan to improve performance of SIKE and CSIDH
+7. make refs to state-of-the-art (I think on performance of SIKE/CSIDH)
+8. more detail on open problems to be studied
+9. include concrete, measurable, more specific objectives
+  -Examples given: develop common vocabulary
+                   publication comparing vocabulary used
+                   percentage of mobilities designated for ECIs
+                   estimated percentage of underrepresented groups in consortium
+10. more clear on added value of networking activities to achievement of stated objectives
+11. explain how key stakeholders might provide feedback
+12. explain how key stakeholders might initiate research on a certain problem
+13. explain selection process for participants/lecturers for workshops (wrt to stakeholders)
+14. more specifics on engagement with industry partners
+15. better Pert diagram
+
+Ideas to address suggestions:
+
+1. Add to Section 1.1: isogeny-based crypto is the lowest memory post-quantum algorithm, good for small devices. Most compatible with devices developped with classical ECC in mind.
+2. Add to Section 1.2: slow speed is currently a hurdle to adoption, lack of learning resources on the topic a hurdle to adoption.
+3. Recent advances are in 1.1.1. Add more details on implementation state-of-the-art (maybe include something on curve models, constant-time, sqrtVelu...)
+4. Maybe discuss schemes with desirable cryptographic properties? Building on existing schemes? Add to 1.2.1
+5. [I think this should be covered by 8, and is paritially covered already by 1.2.1]
+6. Something similar to point (3). Maybe refer to Cloudfare workshop / collaboration (is that anonymous though..)
+7. Give latest numbers and constant-time techniques? Add to 1.1.1
+8. Add hashing into the isogeny graph, exploiting torsion-point information, efficient signature scheme (either bigger class group computation for CSI-FiSh or develop SQISign or new idea?)...
+9. Common vocabulary + whitepaper is already a specific objective. How do we make this clearer? Have tried to address gender balance and ECI balance by adding to the consortium directly. Perhaps can add objective to support the ECIs to the next stage of their career or something similar. Add objective that n% of funding is used to support STSMs/conference grants for ECIs and/or underrepresented groups?
+10. partly addressed by suggestion for (9). More ideas?
+11. ?
+12. We could set up a forum where industry partners can ask questions / propose problems?
+13. Not sure I want to do this, it seems to tie us into something we might not want to do 4 years down the line.
+14. Suggestion for (12) partly addresses this. We could commit to collaborative workshops (e.g. following Cloudfare/isogeny school model).
+15. ..will think about this later!
